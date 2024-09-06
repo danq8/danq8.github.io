@@ -1,6 +1,6 @@
 
 ---
-title: "Dan's place for notes"
+title: "Dan\'s place for notes"
 keywords: XXX
 tags: [getting_started]
 sidebar: mydoc_sidebar
