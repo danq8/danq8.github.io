@@ -253,11 +253,13 @@ entries:
       url: /mydoc_troubleshooting.html
       output: web, pdf
 
-  - title: Tag archives
+  #- title: Tag archives
+  - title: Cyber tools
     output: web
     folderitems:
 
-    - title: Tag archives overview
+    #- title: Tag archives overview
+    - title: Cyber tools overview
       url: /mydoc_tag_archives_overview.html
       output: web
 
