@@ -5,9 +5,12 @@ entries:
   levels: two
   folders:
 
-  - title: Get started
+  - title: Overview
     output: web
     folderitems:
+    - title: Getting Started
+      url: /index.html
+      output: web
     - title: News
       url: /news.html
       output: web
