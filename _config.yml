@@ -102,6 +102,7 @@ defaults:
 
 sidebars:
 - home_sidebar
+- tools_sidebar
 - mydoc_sidebar
 - product1_sidebar
 - product2_sidebar
