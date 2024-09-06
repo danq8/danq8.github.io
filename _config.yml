@@ -3,7 +3,7 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Jekyll Documentation Theme
+topnav_title: Dan's Notes
 # this appears on the top navigation bar next to the home button
 
 site_title: Jekyll theme for documentation
@@ -33,9 +33,10 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Jekyll documentation theme
+# feedback_subject_line: Jekyll documentation theme
+feedback_subject_line: Test
 
-feedback_email: tomjoht@gmail.com
+feedback_email: test@test.com
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true

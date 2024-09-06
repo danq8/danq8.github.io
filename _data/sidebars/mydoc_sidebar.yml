@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: TEST2
-  version: 6.0
+  #product: TEST2
+  #version: 6.0
   folders:
 
   - title:
