@@ -244,22 +244,22 @@ entries:
 #      url: /mydoc_shuffle.html
 #      output: web, pdf
 
-  - title: Troubleshooting
+  - title: Cyber tools
     output: web, pdf
 
     folderitems:
 
-    - title: Troubleshooting
+    - title: Cyber tools overview
       url: /mydoc_troubleshooting.html
       output: web, pdf
 
   #- title: Tag archives
-  - title: Cyber tools
+  - title: Cyber activities
     output: web
     folderitems:
 
     #- title: Tag archives overview
-    - title: Cyber tools overview
+    - title: Cyber activities overview
       url: /mydoc_tag_archives_overview.html
       output: web
 
