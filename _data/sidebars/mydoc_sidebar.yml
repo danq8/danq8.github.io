@@ -19,11 +19,11 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
+  - title: General
     output: web, pdf
     folderitems:
 
-    - title: Get started
+    - title: Home page
       url: /index.html
       output: web, pdf
       type: homepage
@@ -244,22 +244,15 @@ entries:
 #      url: /mydoc_shuffle.html
 #      output: web, pdf
 
-  - title: Cyber tools
-    output: web, pdf
 
-    folderitems:
-
-    - title: Cyber tools overview
-      url: /mydoc_troubleshooting.html
-      output: web, pdf
 
   #- title: Tag archives
-  - title: Cyber activities
+  - title: Activities
     output: web
     folderitems:
 
     #- title: Tag archives overview
-    - title: Cyber activities overview
+    - title: Activities overview
       url: /mydoc_tag_archives_overview.html
       output: web
 
@@ -295,5 +288,16 @@ entries:
         - title: Troubleshooting pages
           url: /tag_troubleshooting.html
           output: web
+
+  - title: Tools
+    #output: web, pdf
+    output: web
+
+    folderitems:
+
+    - title: Tools overview
+      url: /tools_burpsuite.html
+      #output: web, pdf
+      output: web
 
 # Copyright 2021 Google LLC
