@@ -12,17 +12,18 @@ folder: tools
 The Open Worldwide Application Security Project, a nonprofit foundation that works to improve the security of software.
 
 **OWASP Top 10**
-https://owasp.org/www-project-top-ten/
+
+<a href="https://owasp.org/www-project-top-ten/">https://owasp.org/www-project-top-ten/</a>
 Top 10 Web Application Security Risks
 For each risk this site lists the Common Weakness Enumerations (CWEs)
 Updated every 4 years (Next update due 2025)
 
 **OWASP Cheat Sheet Series**
-https://cheatsheetseries.owasp.org/index.html
+<a href="https://cheatsheetseries.owasp.org/index.html">https://cheatsheetseries.owasp.org/index.html</a>
 Best practices for development with possible attack details
 
 **The OWASP Web Security Testing Guide**
-https://owasp.org/www-project-web-security-testing-guide/latest/
+<a href="https://owasp.org/www-project-web-security-testing-guide/latest/">https://owasp.org/www-project-web-security-testing-guide/latest/</a>
 
 **The OWASP Mobile Application Security Testing Guide**
 https://mas.owasp.org/MASTG/
