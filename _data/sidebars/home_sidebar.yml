@@ -31,21 +31,58 @@ entries:
 
     #- title: Tag archives overview
     - title: Activities overview
-      url: /mydoc_tag_archives_overview.html
+      url: /act_overview.html
       output: web
 
       subfolders:
-      - title: Tag archive pages
+      - title: Red Team
         output: web
         subfolderitems:
 
-        - title: Formatting pages
-          url: /tag_formatting.html
+        - title: Reconnaissance
+          url: /act_reconnaissance.html
           output: web
 
-        - title: Navigation pages
-          url: /tag_navigation.html
+        - title: Social engineering
+          url: /act_social.html
           output: web
+
+        - title: Malware
+          url: /act_malware.html
+          output: web
+
+        - title: Vulnerability discovery
+          url: /act_vulnerability.html
+          output: web
+
+        - title: Penetration testing
+          url: /act_pentest_red.html
+          output: web
+
+        - title: Reporting
+          url: /act_reporting_red.html
+          output: web
+
+      - title: Blue Team
+        output: web
+        subfolderitems:
+
+        - title: Prevention
+          url: /act_prevention.html
+          output: web
+
+        - title: Detection
+          url: /act_detection.html
+          output: web
+
+        - title: Response
+          url: /act_response.html
+          output: web
+
+        - title: Reporting
+          url: /act_reporting_blue.html
+          output: web
+
 
 
   - title: Tools
