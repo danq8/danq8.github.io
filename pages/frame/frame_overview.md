@@ -23,13 +23,12 @@ The Open Worldwide Application Security Project, a nonprofit foundation that wor
 **The OWASP Web Security Testing Guide**  <a href="https://owasp.org/www-project-web-security-testing-guide/latest/">https://owasp.org/www-project-web-security-testing-guide/latest/</a>
 <p>Considerations for testing web applications</p>
 <br/>
-**The OWASP Mobile Application Security Testing Guide**
-https://mas.owasp.org/MASTG/
-<p>Considerations for testing web applications</p>
+**The OWASP Mobile Application Security Testing Guide**  <a href="https://mas.owasp.org/MASTG/">https://mas.owasp.org/MASTG/</a>
+
+<p>Considerations for testing Mobile applications</p>
 <br/>
-**OWASP IoT Security Testing Guide**
-https://owasp.org/owasp-istg/
-<p>Considerations for testing web applications</p>
+**OWASP IoT Security Testing Guide**  <a href="https://owasp.org/owasp-istg/">https://owasp.org/owasp-istg/</a>
+<p>Considerations for testing firmware and IoT applications</p>
 <br/>
 
 ## Mitre
@@ -51,11 +50,9 @@ D3FEND is designed to complement ATT&CK by focusing on defensive techniques and 
 
 
 ## NIST
-<br/><br/>
-
 
 National Institute of Standards and Technology at the U.S. Department of Commerce. The NIST Cybersecurity Framework helps businesses of all sizes better understand, manage, and reduce their cybersecurity risk and protect their networks and data. The Framework is voluntary.
-
+<br/><br/>
 
 **NIST Technical Guide to Information Security Testing and Assessment** <a href="https://csrc.nist.gov/pubs/sp/800/115/final">https://csrc.nist.gov/pubs/sp/800/115/final</a>
 
