@@ -4,6 +4,7 @@ keywords: Dan's notes
 #tags: [getting_started]
 tags: [home]
 sidebar: home_sidebar
+toc: false
 permalink: index.html
 # summary: Home page of Dan's notes.
 ---
