@@ -12,11 +12,11 @@ folder: tools
 ## Downloads
 
 
-[Community Edition](https://portswigger.net/burp/communitydownload)
+[Community Edition](https://portswigger.net/burp/communitydownload){: .btn .btn-blue .mr-4 }
 
 ## Training
 
 
-[PortSwigger training academy](https://portswigger.net/web-security)
+[PortSwigger training academy](https://portswigger.net/web-security){: .btn .btn-blue .mr-4 }
 
 {% include links.html %}
