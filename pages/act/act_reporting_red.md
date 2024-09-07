@@ -1,8 +1,8 @@
 ---
-title: "Penetration testing"
-tagName: pentest
+title: "Reporting"
+tagName: reporting
 search: exclude
-permalink: act_pentest_red.html
+permalink: act_reporting_red.html
 sidebar: home_sidebar
 folder: act
 ---

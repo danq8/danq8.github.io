@@ -1,8 +1,8 @@
 ---
-title: "Penetration testing"
-tagName: pentest
+title: "Social Engineering"
+tagName: social
 search: exclude
-permalink: act_pentest_red.html
+permalink: act_social.html
 sidebar: home_sidebar
 folder: act
 ---
