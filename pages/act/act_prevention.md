@@ -1,8 +1,8 @@
 ---
-title: "Reporting (Red Team)"
-tagName: reporting_red
+title: "Prevention"
+tagName: prevention
 search: exclude
-permalink: act_reporting_red.html
+permalink: act_prevention.html
 sidebar: home_sidebar
 folder: act
 ---

@@ -1,8 +1,8 @@
 ---
-title: "Reporting (Red Team)"
-tagName: reporting_red
+title: "Response"
+tagName: response
 search: exclude
-permalink: act_reporting_red.html
+permalink: act_response.html
 sidebar: home_sidebar
 folder: act
 ---

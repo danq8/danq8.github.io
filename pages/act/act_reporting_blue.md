@@ -1,8 +1,8 @@
 ---
-title: "Reporting (Red Team)"
-tagName: reporting_red
+title: "Reporting (Blue team)"
+tagName: reporting_blue
 search: exclude
-permalink: act_reporting_red.html
+permalink: act_reporting_blue.html
 sidebar: home_sidebar
 folder: act
 ---
