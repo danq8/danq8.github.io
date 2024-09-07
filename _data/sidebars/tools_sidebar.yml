@@ -296,6 +296,11 @@ entries:
     folderitems:
 
     - title: Tools overview
+      url: /tools_overview.html
+      #output: web, pdf
+      output: web
+
+    - title: Burpsuite
       url: /tools_burpsuite.html
       #output: web, pdf
       output: web
