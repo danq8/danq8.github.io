@@ -1,5 +1,5 @@
 ---
-title: Zap
+title: Zap <span class="label label-success">Fave</span>
 keywords: Zap, security assesment, pentesting
 last_updated: July 3, 2016
 tags: [security_assesment, pentest] 

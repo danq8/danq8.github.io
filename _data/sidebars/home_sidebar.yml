@@ -81,7 +81,7 @@ entries:
           #output: web, pdf
           output: web
 
-        - title: Zap <span class="label label-success">Fave</span>
+        - title: Zap *
           url: /tools_zap.html
           #output: web, pdf
           output: web
