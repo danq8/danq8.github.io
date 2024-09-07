@@ -17,9 +17,9 @@ entries:
       output: web, pdf
       type: homepage
 
-    #- title: Introduction
-    #  url: /mydoc_introduction.html
-    #  output: web, pdf
+    - title: Essential reading
+      url: /frame_overview.html
+      output: web
 
 
 
