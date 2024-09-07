@@ -297,7 +297,7 @@ entries:
 
     - title: Tools overview
       #url: /mydoc_troubleshooting.html
-      url: /tools_burpsuite.html
+      url: /tools_overview.html
       #output: web, pdf
       output: web
 

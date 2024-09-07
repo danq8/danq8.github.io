@@ -3,7 +3,7 @@ title: "Welcome to my notes"
 keywords: Dan's notes
 #tags: [getting_started]
 tags: [home]
-sidebar: mydoc_sidebar
+sidebar: home_sidebar
 permalink: index.html
 # summary: Home page of Dan's notes.
 ---
