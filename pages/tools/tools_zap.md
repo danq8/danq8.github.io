@@ -12,6 +12,30 @@ folder: tools
 
 
 
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Usage Notes</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                                Usage notes on ZAP
+                                here.
+                                ```js
+console.log('hello');
+````
+```js
+console.log('hello2');
+````
+                            </div>
+                        </div>
+                    </div>
+</div>
+<!-- /.panel-group -->
+
+
 <div class="row">
          <div class="col-lg-12">
              <h2 class="page-header">Zap</h2>
