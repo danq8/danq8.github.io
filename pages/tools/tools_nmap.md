@@ -28,6 +28,11 @@ folder: tools
 
 <!-- body -->
    <div class="body">
+             <span class="input-group-text">Target IP</span>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="IP" placeholder="IP address" />
+            <label for="IP">IP address</label>
+          </div>
       <!-- Tab links -->
       <div class="tab">
         <button class="tablinks" onclick="ChangeTab(event, 'Simple')" id="SimpleOpen"> Simple </button>
