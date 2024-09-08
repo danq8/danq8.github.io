@@ -22,13 +22,13 @@ folder: tools
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
                                 Usage notes on ZAP
-                                here.
-    ```js
-    console.log('hello');
-    ```
-    ```js
-    console.log('hello2');
-    ```
+                                <br/>here.
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+code block
+</code></pre></div></div>
+
+
                             </div>
                         </div>
                     </div>
