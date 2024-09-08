@@ -1,11 +1,11 @@
 ---
-title: Zap <span class="label label-success">Fave</span>
-keywords: Zap, security assesment, pentesting
+title: Metasploit <span class="label label-success">Fave</span>
+keywords: Metasploit, security assesment, pentesting
 last_updated: July 3, 2016
 tags: [security_assesment, pentest] 
-summary: "The world’s most widely used web app scanner. Free and open source. Actively maintained by a dedicated international team of volunteers. A GitHub Top 1000 project."
+summary: "The world’s most used penetration testing framework."
 sidebar: home_sidebar
-permalink: tools_zap.html
+permalink: tools_metasploit.html
 toc: false
 folder: tools
 ---
@@ -51,7 +51,7 @@ code block
                  <div class="panel-body">
                      <h4>Downloads</h4>
                      <p>Start with the community edition</p>
-                     <a href="https://www.zaproxy.org/download/" class="btn btn-primary">Download</a>
+                     <a href="https://docs.metasploit.com/docs/using-metasploit/getting-started/nightly-installers.html" class="btn btn-primary">Download</a>
                  </div>
              </div>
          </div>
@@ -66,7 +66,7 @@ code block
                  <div class="panel-body">
                      <h4>Training</h4>
                      <p>FREE online course</p>
-                     <a href="https://www.zaproxy.org/zap-in-ten/" class="btn btn-primary">Zap in ten</a>
+                     <a href="https://www.offsec.com/metasploit-unleashed/" class="btn btn-primary">Metasploit Unleashed</a>
                  </div>
              </div>
          </div>
@@ -80,9 +80,9 @@ code block
                  </div>
                  <div class="panel-body">
                      <h4>Documentation</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                     <a href="https://www.zaproxy.org/getting-started/" class="btn btn-primary">Getting Started</a>
-                     <a href="https://www.zaproxy.org/docs/" class="btn btn-primary">FULL Documentation</a>
+                     <p></p>
+                     <a href="https://docs.metasploit.com/docs/using-metasploit/getting-started/" class="btn btn-primary">Getting Started</a>
+                     <a href="https://docs.metasploit.com/" class="btn btn-primary">FULL Documentation</a>
                  </div>
              </div>
          </div>
