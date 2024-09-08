@@ -23,12 +23,12 @@ folder: tools
                             <div class="panel-body">
                                 Usage notes on ZAP
                                 here.
-```js
-console.log('hello');
-```
-```js
-console.log('hello2');
-```
+    ```js
+    console.log('hello');
+    ```
+    ```js
+    console.log('hello2');
+    ```
                             </div>
                         </div>
                     </div>
