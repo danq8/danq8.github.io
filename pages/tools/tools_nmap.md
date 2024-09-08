@@ -22,10 +22,276 @@ folder: tools
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
 
+
+<p>Based on <a href="https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/">https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/</a></p>
+
+
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+
+</code></pre></div></div>
+
+
+<div class="entry-content">
+		<div class="row">
+<div class="col-md-8">
+<p class="fs-lg">Nmap has a multitude of options, when you first start playing with this excellent tool, it can be a bit daunting.</p>
+<p class="fs-lg">In this cheat sheet, you will find a series of practical example commands for running Nmap and getting the most of this powerful tool.</p>
+<p>Keep in mind this cheat sheet merely touches the surface of the available options. The <a href="http://nmap.org/docs.html">Nmap Documentation portal</a> is your reference for digging deeper into the options available.</p>
+</div>
+<div class="col-md-4">
+<div class="alert alert-dark dark-mid-bg fs-sm toc-links"><span class="text-light ms-3">Contents:</span><p></p>
+<ul class="icon">
+<li class="double-right"> <a href="#targetselection">Target Selection</a></li>
+<li class="double-right"> <a href="#portselection">Port Selection</a></li>
+<li class="double-right"> <a href="#scantypes">Scan Types</a></li>
+<li class="double-right"> <a href="#servicedetection">Service and Operating System Detection</a></li>
+<li class="double-right"> <a href="#outputformats">Output formats</a></li>
+<li class="double-right"> <a href="#nmap-csv">Nmap CSV Output</a></li>
+<li class="double-right"> <a href="#nsescripts">NSE Scripting</a></li>
+<li class="double-right"> <a href="#ddosreflectors">Find DDOS reflectors</a></li>
+<li class="double-right"> <a href="#httpinfo">HTTP info gathering</a></li>
+<li class="double-right"> <a href="#heartbleed">Heartbleed Detection</a></li>
+<li class="double-right"> <a href="#ipinfo">IP Information Gathering</a></li>
+<li class="double-right"> <a href="#remotescanning">Remote Scanning</a></li>
+<li class="double-right"> <a href="#additionalresources">Additional Resources</a></li>
+</ul>
+</div>
+</div>
+</div>
+<h3 id="targetselection">Nmap Target Selection</h3>
+<table class="table table-condensed table-sm table-striped">
+<tbody><tr>
+<td style="color:#3276B1; width: 40%;">Scan a single IP</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap 192.168.1.1</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 40%;">Scan a host</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap www.testhostname.com</td>
+</tr><tr>
+<td style="color:#3276B1; width: 40%;">Scan a range of IPs</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap 192.168.1.1-20</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 40%;">Scan a subnet</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap 192.168.1.0/24</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 40%;">Scan targets from a text file</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -iL list-of-ips.txt</td>
+</tr>
+</tbody></table>
+<p>These are all default scans, which will scan 1000 TCP ports. Host discovery will take place.</p>
+<hr>
+<h3 id="portselection">Nmap Port Selection</h3>
+<table class="table table-sm table-striped">
+<tbody><tr>
+<td style="color:#3276B1; width: 50%;">Scan a single Port</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -p 22 192.168.1.1</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 50%;">Scan a range of ports</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -p 1-100 192.168.1.1</td>
+</tr><tr>
+<td style="color:#3276B1; width: 50%;">Scan 100 most common ports (Fast)</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -F 192.168.1.1</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 40%;">Scan all 65535 ports</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -p- 192.168.1.1</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="scantypes">Nmap Port Scan types</h3>
+<table class="table table-sm table-striped">
+<tbody><tr>
+<td style="color:#3276B1; width: 40%;">Scan using TCP connect</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -sT 192.168.1.1</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 40%;">Scan using TCP SYN scan (default)</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -sS 192.168.1.1</td>
+</tr><tr>
+<td style="color:#3276B1; width: 40%;">Scan UDP ports</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -sU -p 123,161,162 192.168.1.1</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 40%;">Scan selected ports - ignore discovery</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -Pn -F 192.168.1.1</td>
+</tr>
+</tbody></table>
+<p>Privileged access is required to perform the default <code>SYN</code> scans. If privileges are insufficient a TCP connect scan will be used. A TCP connect requires a full TCP connection to be established and therefore is a slower scan. Ignoring discovery is often required as many firewalls or hosts will not respond to <code>PING</code>, so could be missed unless you select the <code>-Pn</code> parameter. Of course this can make scan times much longer as you could end up sending scan probes to hosts that are not there.</p>
+<p>Take a look at the <a href="/nmap-tutorial/">Nmap Tutorial</a> for a detailed look at the scan process.</p>
+<hr>
+<h3 id="servicedetection">Service and OS Detection</h3>
+<table class="table table-sm table-striped">
+<tbody><tr>
+<td style="color:#3276B1; width: 40%;">Detect OS and Services</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -A 192.168.1.1</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 40%;">Standard service detection</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -sV 192.168.1.1</td>
+</tr><tr>
+<td style="color:#3276B1; width: 40%;">More aggressive Service Detection</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -sV --version-intensity 5 192.168.1.1</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 40%;">Lighter banner grabbing detection</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -sV --version-intensity 0 192.168.1.1</td>
+</tr>
+</tbody></table>
+<p>Service and OS detection rely on different methods to determine the operating system or service running on a particular port. The more aggressive service detection is often helpful if there are services running on unusual ports. On the other hand the lighter version of the service will be much faster as it does not really attempt to detect the service simply grabbing the banner of the open service.</p>
+<hr>
+<h3 id="outputformats">Nmap Output Formats</h3>
+<table class="table table-sm table-striped">
+<tbody><tr>
+<td style="color:#3276B1; width: 50%;">Save default output to file</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -oN outputfile.txt 192.168.1.1</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 50%;">Save results as XML</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -oX outputfile.xml 192.168.1.1</td>
+</tr><tr>
+<td style="color:#3276B1; width: 50%;">Save results in a format for grep</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -oG outputfile.txt 192.168.1.1</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 50%;">Save in all formats</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -oA outputfile 192.168.1.1</td>
+</tr>
+</tbody></table>
+<p>The default format could also be saved to a file using a simple file redirect <code>command &gt; file</code>. Using the <code>-oN</code> option allows the results to be saved but also can be monitored in the terminal as the scan is under way. </p>
+<hr>
+<h3 id="nmap-csv">Nmap Output to CSV</h3>
+<p>Nmap by default has no <code>csv</code> output format. Use the <code>XML</code> output to extract the relevant fields into <code>csv</code> with <code>python</code>.</p>
+<p>Jump over to <strong>github</strong> and grab our sample script that can be easily modified depending on your requirements. With <code>csv</code> files it is easy to convert into <code>xlsx</code> for reporting. This can be done manually or using our <code>python</code> conversion script.</p>
+<table class="table table-striped table-sm">
+<tbody><tr>
+<td><a href="https://github.com/hackertarget/nmap-csv-xlsx" title="Nmap XML output to CSV">Nmap XML to CSV</a></td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="nsescripts">Digging deeper with NSE Scripts</h3>
+<table class="table table-sm table-striped">
+<tbody><tr>
+<td style="color:#3276B1; width: 30%;">Scan using default safe scripts</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -sV -sC 192.168.1.1</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 30%;">Get help for a script</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap --script-help=ssl-heartbleed</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 30%;">Scan using a specific NSE script</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -sV -p 443 –script=ssl-heartbleed.nse 192.168.1.1</td>
+</tr><tr>
+<td style="color:#3276B1; width: 30%;">Scan with a set of scripts</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -sV --script=smb* 192.168.1.1</td>
+</tr>
+</tbody></table>
+<p>According to my Nmap install there are currently <strong>581 NSE scripts</strong>. The scripts are able to perform a wide range of security related testing and discovery functions. If you are serious about your network scanning you really should take the time to get familiar with some of them.</p>
+<p>The option <code>--script-help=$scriptname</code> will display help for the individual scripts. To get an easy list of the installed scripts try <code>locate nse | grep script</code>. </p>
+<p>You will notice I have used the <code>-sV</code> service detection parameter. Generally most NSE scripts will be more effective and you will get better coverage by including service detection.</p>
+<hr>
+<h3 id="ddosreflectors">A scan to search for DDOS reflection UDP services</h3>
+<table class="table table-sm table-striped">
+<tbody><tr>
+<td style="color:#3276B1; width: 30%;">Scan for UDP DDOS reflectors</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap –sU –A –PN –n –pU:19,53,123,161 –script=ntp-monlist,dns-recursion,snmp-sysdescr 192.168.1.0/24</td>
+</tr>
+</tbody></table>
+<p>UDP based DDOS reflection attacks are a common problem that network defenders come up against. This is a handy Nmap command that will scan a target list for systems with open UDP services that allow these attacks to take place. Full details of the command and the background can be found on the <a href="https://isc.sans.edu/diary/Using+nmap+to+scan+for+DDOS+reflectors/18193">Sans Institute Blog</a> where it was first posted.</p>
+<hr>
+<h3 id="httpinfo">HTTP Service Information</h3>
+<t><p></p>
+</t><table class="table table-sm table-striped"><tbody><tr><td style="color:#3276B1; width: 40%;">Gather page titles from HTTP services</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap --script=http-title 192.168.1.0/24</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 40%;">Get HTTP headers of web services</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap --script=http-headers 192.168.1.0/24</td>
+</tr>
+<tr>
+<td style="color:#3276B1; width: 40%;">Find web apps from known paths</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap --script=http-enum 192.168.1.0/24</td>
+</tr>
+</tbody></table>
+<p>There are many HTTP information gathering scripts, here are a few that are simple but helpful when examining larger networks. Helps in quickly identifying what the HTTP service that is running on the open port. Note the <code>http-enum</code> script is particularly noisy. It is similar to <a href="/nikto-website-scanner/">Nikto</a> in that it will attempt to enumerate known paths of web applications and scripts. This will inevitably generated hundreds of <code>404 HTTP responses</code> in the web server error and access logs.</p>
+<hr>
+<h3 id="heartbleed">Detect Heartbleed SSL Vulnerability</h3>
+<table class="table table-sm table-striped">
+<tbody><tr>
+<td style="color:#3276B1; width: 30%;">Heartbleed Testing</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap -sV -p 443 --script=ssl-heartbleed 192.168.1.0/24</td>
+</tr>
+</tbody></table>
+<p>Heartbleed detection is one of the available SSL scripts. It will detect the presence of the well known Heartbleed vulnerability in SSL services. Specify alternative ports to test SSL on mail and other protocols <em>(Requires Nmap 6.46)</em>.</p>
+<hr>
+<h3 id="ipinfo">IP Address information</h3>
+<table class="table table-sm table-striped">
+<tbody><tr>
+<td style="color:#3276B1; width: 30%;">Find Information about IP address</td>
+<td style="font-family: &quot;Courier 10 Pitch&quot;, Courier, monospace;">nmap --script=asn-query,whois,ip-geolocation-maxmind 192.168.1.0/24</td>
+</tr>
+</tbody></table>
+<p>Gather information related to the IP address and netblock owner of the IP address. Uses ASN, whois and geoip location lookups. See the <a href="/ip-tools/" title="IP and Domain Information Tools">IP Tools</a> for more information and similar IP address and DNS lookups.</p>
+<hr>
+<h3 id="remotescanning">Remote Scanning</h3>
+<p>Testing your network perimeter from an external perspective is key when you wish to get the most accurate results. By assessing your exposure from the attackers perspective you can validate firewall rule audits and understand exactly what is allowed into your network. This is the reason we offer a hosted or <a href="/nmap-online-port-scanner/" alt="online namp" title="Online Nmap Scanning" class="tooltips">online version of the Nmap port scanner</a>. To enable remote scanning easily and effectively because anyone who has played with <code>shodan.io</code> knows very well how badly people test their perimeter networks.</p>
+<hr>
+<h3 id="additionalresources">Additional Resources</h3>
+<p>The above commands are just a taste of the power of Nmap.  Check out our <a href="/nmap-tutorial/">Nmap Tutorial</a> that has more information and tips.<br>
+You could also view the full set of features by running Nmap with no options. The creator of Nmap, Fyodor, has a <a href="https://nmap.org/book/">book</a> available that covers the tool in depth.</p>
+<div class="dark-mode bg-dark bg-size-cover bg-position-center bg-repeat-0 position-relative overflow-hidden rounded-3 py-lg-2 py-xl-3 px-4 mt-5 __text_mode_custom_bg__" style="background-image: url(/images/osint-background.webp);">
+<div class="row position-relative zindex-2 py-3 my-1 my-md-3">
+<div class="col-md-6">
+<div class="mx-auto px-lg-4" style="max-width: 440px;">
+<h4 class="h5 pb-1 pb-md-3 pb-lg-4"><span class="bright-gr">Next Level</span> Your Technical Network Intelligence</h4>
+<p>    <a href="/use-cases/" class="btn btn-sm btn-primary shadow-primary w-100 w-sm-auto">Use Cases and More Info</a>
+    </p></div>
+</div>
+<div class="col-md-6 mt-4">
+<ul class="list-unstyled fs-lg d-none d-md-block">
+<li class="mb-2 h6">
+      <i class="bi bi-check2-circle me-2"></i>13 Vulnerability Scanners</li>
+<li class="mb-2 h6"> <i class="bi bi-check2-circle me-2"></i>17 Free DNS &amp; Network Tools</li>
+<li class="h6">
+      <i class="bi bi-check2-circle me-2"></i>4+ Billion Records of DNS / IP data</li>
+</ul>
+</div></div>
+</div>
+	</div>
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+</div>
+<!-- /.panel-group -->
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Click here for NMap Builder</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+
+
+
+
   <link rel="stylesheet" type="text/css" href="/pages/tools/nmap_builder.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="/pages/tools/nmap_builder.js"></script>
 
+<p>Based on <a href="https://github.com/callmeks/nmap-command-builder">https://github.com/callmeks/nmap-command-builder</a></p>
 <!-- body -->
    <div class="body">
              <span class="input-group-text">Target IP</span>
@@ -418,9 +684,7 @@ folder: tools
 
 
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-code block
-</code></pre></div></div>
+
 
 
                             </div>
