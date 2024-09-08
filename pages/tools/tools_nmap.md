@@ -12,11 +12,11 @@ folder: tools
 
 
 
-<div class="panel-group" id="accordion">
+<div class="panel-group" id="accordion1">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Click here for Usage Notes</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">Click here for Usage Notes</a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
@@ -274,11 +274,11 @@ You could also view the full set of features by running Nmap with no options. Th
 </div>
 <!-- /.panel-group -->
 
-<div class="panel-group" id="accordion">
+<div class="panel-group" id="accordion2">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Click here for NMap Builder</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Click here for NMap Builder</a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
