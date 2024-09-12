@@ -7,8 +7,10 @@ toc: false
 folder: darkweb
 ---
 
-1. Keeping Safe
-
-I suggest you use a trusted VPN before starting your TOR browser.
+1.  Keep safe
+    I suggest you use a trusted VPN before starting your TOR browser.
+2.  Don't take anything at face value
+3.  Never enter personal details
+4.  ...
 
 
