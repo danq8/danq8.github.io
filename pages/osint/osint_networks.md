@@ -23,5 +23,5 @@ The OWASP Amass Project performs network mapping of attack surfaces and external
 
 <br/><br/>
 
-{% include note.html content="sources include: <br/>[https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/](https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/)br/>" %}
+{% include note.html content="sources include: <br/>[https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/](https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/)<br/>" %}
 
