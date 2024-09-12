@@ -17,7 +17,7 @@ folder: tools
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
-{{## OWASP
+{{"## OWASP
 The Open Worldwide Application Security Project, a nonprofit foundation that works to improve the security of software.
 <br/><br/>
 
@@ -40,7 +40,7 @@ The Open Worldwide Application Security Project, a nonprofit foundation that wor
 <p>Considerations for testing firmware and IoT applications</p>
 <br/>
 
-}}
+" | markdownify }}
 
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
