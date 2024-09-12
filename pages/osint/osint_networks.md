@@ -3,6 +3,7 @@ title: OSINT Networks
 last_updated: July 3, 2016
 sidebar: home_sidebar
 permalink: osint_networks.html
+tags: [reconnaissance] 
 toc: false
 folder: osint
 ---

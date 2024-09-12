@@ -12,7 +12,7 @@ folder: tools
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Click here for OWASP</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Click here for OWASP (Open Worldwide Application Security Project)</a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
@@ -125,7 +125,7 @@ D3FEND is designed to complement ATT&CK by focusing on defensive techniques and 
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Click here for NIST</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Click here for NIST (National Institute of Standards and Technology)</a>
                             </h4>
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse noCrossRef">
@@ -161,7 +161,7 @@ National Institute of Standards and Technology at the U.S. Department of Commerc
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Click here for Centre of Internet Security</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Click here for CIS (Centre of Internet Security)</a>
                             </h4>
                         </div>
                         <div id="collapseFour" class="panel-collapse collapse noCrossRef">
@@ -169,6 +169,7 @@ National Institute of Standards and Technology at the U.S. Department of Commerc
 {{"
 # CIS
 
+Stands for the Centre of Internet Security
 The CIS Controls and CIS Benchmarks are the global standard and recognized best practices for securing IT systems and data against the most pervasive attacks.
 
 ## CIS Benchmarks
