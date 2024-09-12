@@ -15,7 +15,8 @@ topnav_dropdowns:
         - title: Hacker One
           external_url: https://hackerone.com/dan_q8
         - title: Github
-          external_url: https://simonsmith.github.io/github-user-search/#/danq8
+          external_url: https://github.com/danq8
+          # https://simonsmith.github.io/github-user-search/#/danq8
         - title: LinkedIn
           external_url: https://www.linkedin.com/in/woodd/
 
