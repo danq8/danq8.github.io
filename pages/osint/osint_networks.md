@@ -4,6 +4,7 @@ last_updated: July 3, 2016
 sidebar: home_sidebar
 permalink: osint_networks.html
 tags: [reconnaissance] 
+summary: A list of tools, with links for gaining information about networks and devices
 toc: false
 folder: osint
 ---

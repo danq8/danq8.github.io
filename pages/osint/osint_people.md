@@ -3,6 +3,7 @@ title: OSINT People
 last_updated: July 3, 2016
 sidebar: home_sidebar
 permalink: osint_people.html
+summary: A list of tools, with links for gaining information about people
 toc: false
 folder: osint
 ---
