@@ -13,7 +13,11 @@ A list of tools, with links to downloads, documentation etc.
 
 <h1>Quick online tools</h1>
 [Hex decoder](https://cryptii.com/pipes/hex-decoder){:target="_blank"}
+<br/>
 [GCHQ Cyber chef](https://gchq.github.io/CyberChef){:target="_blank"}
+<br/>
 [JSON web token debugger](https://jwt.io/){:target="_blank"}
+<br/>
 [Binary difference viewer](https://github.com/google/bindiff){:target="_blank"}
+<br/>
 
