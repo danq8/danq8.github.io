@@ -97,19 +97,22 @@ entries:
       output: web
 
       subfolders:
-      - title: OSINT
+      - title: OSINT Network
         output: web
         subfolderitems:
 
-        subfolders:
-        - title: Network and devices
+        - title: OWASP Amass
+          url: /osint_amass.html
           output: web
-          subfolderitems:
 
-          - title: OWASP Amass
-            url: /osint_amass.html
-            output: web
-            
+      - title: OSINT People
+        output: web
+        subfolderitems:
+
+        - title: OWASP Amass
+          url: /osint_amass.html
+          output: web
+
       - title: Penetration
         output: web
         subfolderitems:
