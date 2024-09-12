@@ -9,7 +9,7 @@ folder: osint
 
 A list of tools, with links for gaining information about people
 
-sources include: [https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/](https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/)
+
 
 <br/><br/>
 
@@ -37,3 +37,4 @@ Some modules have PAID options
 
 
 <br/><br/>
+{% include note.html content="sources include: <br/>[https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/](https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/)br/>" %}

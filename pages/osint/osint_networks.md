@@ -11,7 +11,7 @@ folder: osint
 A list of tools, with links for gaining information about networks and devices
 
 
-sources include: [https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/](https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/)
+
 
 <br/><br/>
 
@@ -23,5 +23,5 @@ The OWASP Amass Project performs network mapping of attack surfaces and external
 
 <br/><br/>
 
-
+{% include note.html content="sources include: <br/>[https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/](https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/)br/>" %}
 
