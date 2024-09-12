@@ -16,7 +16,7 @@ A list of tools, with links for gaining information about networks and devices
 <br/><br/>
 
 ## OWASP Amass
-[https://github.com/owasp-amass/amass](https://github.com/owasp-amass/amass)
+[https://github.com/owasp-amass/amass](https://github.com/owasp-amass/amass){:target="_blank"}
 
 The OWASP Amass Project performs network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques.
 
