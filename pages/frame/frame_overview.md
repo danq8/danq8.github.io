@@ -62,10 +62,10 @@ code block
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Click here for MITRE</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Click here for MITRE</a>
                             </h4>
                         </div>
-                        <div id="collapseOne" class="panel-collapse collapse noCrossRef">
+                        <div id="collapseTwo" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
 {{"
 
@@ -100,10 +100,10 @@ D3FEND is designed to complement ATT&CK by focusing on defensive techniques and 
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Click here for NIST</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Click here for NIST</a>
                             </h4>
                         </div>
-                        <div id="collapseOne" class="panel-collapse collapse noCrossRef">
+                        <div id="collapseThree" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
 {{"
 ## NIST
@@ -132,10 +132,10 @@ National Institute of Standards and Technology at the U.S. Department of Commerc
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Click here for Centre of Internet Security</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Click here for Centre of Internet Security</a>
                             </h4>
                         </div>
-                        <div id="collapseOne" class="panel-collapse collapse noCrossRef">
+                        <div id="collapseFour" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
 {{"
 ## CIS
