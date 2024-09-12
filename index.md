@@ -2,7 +2,7 @@
 title: "Welcome to my notes"
 keywords: Dan's notes
 #tags: [getting_started]
-tags: [home]
+#tags: [home]
 sidebar: home_sidebar
 toc: false
 permalink: index.html
