@@ -101,9 +101,15 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Formatting pages
-          url: /tag_formatting.html
+        subfolders:
+        - title: Network and devices
           output: web
+          subfolderitems:
+
+          - title: OWASP Amass
+            url: /osint_amass.html
+            output: web
+
 
         - title: Navigation pages
           url: /tag_navigation.html
