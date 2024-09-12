@@ -10,7 +10,7 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: My credentials
+    - title: <i class="fa fa-envelope-o"></i>Contact Me
       folderitems:
         - title: Hacker One
           external_url: https://hackerone.com/dan_q8

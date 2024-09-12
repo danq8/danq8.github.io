@@ -34,12 +34,12 @@ exclude:
 # these are the files and directories that jekyll will exclude from the build
 
 # feedback_subject_line: Jekyll documentation theme
-feedback_subject_line: Test
+#feedback_subject_line: Test
 
-feedback_email: test@test.com
+#feedback_email: test@test.com
 # used as a contact email for the Feedback link in the top navigation bar
 
-# feedback_disable: true
+feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
 
 # feedback_text: "Need help?"
