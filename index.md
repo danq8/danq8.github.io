@@ -19,3 +19,5 @@ I'd seen some similar notes from other people, and decided it was a good way to 
 
 If you find these notes helpful, then that's great.
 If you'd like to get in touch, there's plenty of ways mentioned in the Contact Me menu item above.
+
+I'm slowly moving my notes and links over to this site, it's going to take a while, so please bear with me.
