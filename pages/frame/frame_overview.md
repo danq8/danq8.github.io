@@ -180,8 +180,8 @@ A list of Operating Systems and devices and advice on how to harden them against
 
 ## CIS Security Controls
 [https://www.cisecurity.org/controls](https://www.cisecurity.org/controls)
-
-Tools to help a company map and comply with industry regulations
+<br/>[https://www.cisecurity.org/controls/cis-controls-list](https://www.cisecurity.org/controls/cis-controls-list)
+<br/>Tools to help a company map and comply with industry regulations
 <br/><br/>
 
 
