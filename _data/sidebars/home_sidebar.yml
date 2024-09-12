@@ -97,20 +97,16 @@ entries:
       output: web
 
       subfolders:
-      - title: OSINT Network
+      - title: OSINT
         output: web
         subfolderitems:
 
-        - title: OWASP Amass
-          url: /osint_amass.html
+        - title: OSINT People
+          url: /osint_people.html
           output: web
 
-      - title: OSINT People
-        output: web
-        subfolderitems:
-
-        - title: OWASP Amass
-          url: /osint_amass.html
+        - title: OSINT Networks
+          url: /osint_networks.html
           output: web
 
       - title: Penetration
@@ -135,6 +131,14 @@ entries:
         - title: Zap *
           url: /tools_zap.html
           #output: web, pdf
+          output: web
+
+      - title: Dark Web
+        output: web
+        subfolderitems:
+
+        - title: Getting Started
+          url: /darkweb_getting_started.html
           output: web
 
 # Copyright 2021 Google LLC
