@@ -16,6 +16,12 @@ A list of tools, with links for gaining information about networks and devices
 
 <br/><br/>
 
+## OSINT Framework
+[https://osintframework.com/](https://osintframework.com/)
+
+<br/><br/>
+
+
 ## OWASP Amass
 [https://github.com/owasp-amass/amass](https://github.com/owasp-amass/amass){:target="_blank"}
 

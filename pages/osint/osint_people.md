@@ -14,6 +14,12 @@ A list of tools, with links for gaining information about people
 
 <br/><br/>
 
+## OSINT Framework
+[https://osintframework.com/](https://osintframework.com/)
+
+<br/><br/>
+
+
 ## theHarvester
 [https://github.com/laramies/theHarvester](https://github.com/laramies/theHarvester){:target="_blank"}
 
