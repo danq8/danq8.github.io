@@ -43,20 +43,72 @@ entries:
           url: /act_reconnaissance.html
           output: web
 
+        - title: Resource Development
+          url: /act_resource_development.html
+          output: web
+
+        - title: Delivery Techniques
+          url: /act_delivery_techniques.html
+          output: web
+
         - title: Social engineering
           url: /act_social.html
           output: web
 
-        - title: Malware
-          url: /act_malware.html
+        - title: Exploitation Techniques
+          url: /act_exploitation_techniques.html
           output: web
 
-        - title: Vulnerability discovery
-          url: /act_vulnerability.html
+        - title: Persistence
+          url: /act_persistence.html
           output: web
 
-        - title: Penetration testing
-          url: /act_pentest_red.html
+        - title: Defense Evasion Techniques
+          url: /act_defense_evasion_techniques.html
+          output: web
+
+        - title: Command & Control Techniques
+          url: /act_c2_techniques.html
+          output: web
+
+        - title: Pivoting
+          url: /act_pivoting.html
+          output: web
+
+        - title: Discovery Techniques
+          url: /act_discovery_techniques.html
+          output: web
+
+        - title: Privilege Escalation
+          url: /act_privilege_escalation.html
+          output: web
+
+        - title: Execution Techniques
+          url: /act_execution_techniques.html
+          output: web
+
+        - title: Credential Access Techniques
+          url: /act_credential_access_techniques.html
+          output: web
+
+        - title: Lateral Movement Techniques
+          url: /act_lateral_movement_techniques.html
+          output: web
+
+        - title: Collection Techniques
+          url: /act_collection_techniques.html
+          output: web
+
+        - title: Exfiltration Techniques
+          url: /act_exfiltration_techniques.html
+          output: web
+
+        - title: Impact Techniques
+          url: /act_impact_techniques.html
+          output: web
+
+        - title: Objectives
+          url: /act_objectives.html
           output: web
 
         - title: Reporting
