@@ -104,12 +104,37 @@ MITRE ATT&CK (Adversarial Tactics, Techniques and Common Knowledge) is a framewo
 
 <br/><br/>
 
+## MITRE ATT&CK Evaluations Library
+[https://github.com/attackevals/ael](https://github.com/attackevals/ael)
+
+The ATT&CK Emulation Library includes a collection of adversary emulation plans used in published ATT&CK Evaluations.
+
+<br/><br/>
+
+## MITRE Cyber Analytics Repository (Psuedo code for detection)
+[https://car.mitre.org/](https://car.mitre.org/)
+
+The MITRE Cyber Analytics Repository (CAR) is a knowledge base of analytics developed by MITRE based on the MITRE ATT&CK adversary model. CAR defines a data model that is leveraged in its pseudocode representations, but also includes implementations directly targeted at specific tools (e.g., Splunk, EQL) in its analytics. With respect to coverage, CAR is focused on providing a set of validated and well-explained analytics, in particular with regards to their operating theory and rationale.
+
+<br/><br/>
+
+
 ## Mitre D3FEND (Detection, Denial, and Disruption Framework Empowering Network Defense)
 [https://d3fend.mitre.org](https://d3fend.mitre.org)
 
 D3FEND is designed to complement ATT&CK by focusing on defensive techniques and strategies, whereas ATT&CK primarily focuses on describing offensive techniques used by adversaries. It includes guidance on how organizations can defend against known attack techniques described in MITRE ATT&CK.
 
 <br/><br/>
+
+
+
+MITRE Engage
+[https://engage.mitre.org/](https://engage.mitre.org/)
+[https://engage.mitre.org/wp-content/uploads/2022/04/EngageHandbook-v1.0.pdf](https://engage.mitre.org/wp-content/uploads/2022/04/EngageHandbook-v1.0.pdf)
+
+MITRE Engage is a framework for planning and discussing adversary engagement operations that empowers you to engage your adversaries and achieve your cybersecurity goals.
+
+
 
 " | markdownify }}
 
