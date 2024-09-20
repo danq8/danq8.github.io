@@ -4,6 +4,7 @@ tagName: collection_techniques
 search: exclude
 permalink: act_collection_techniques.html
 sidebar: home_sidebar
+toc: false
 folder: act
 ---
 

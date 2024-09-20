@@ -4,6 +4,7 @@ tagName: discovery_techniques
 search: exclude
 permalink: act_discovery_techniques.html
 sidebar: home_sidebar
+toc: false
 folder: act
 ---
 

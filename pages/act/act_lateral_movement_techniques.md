@@ -4,6 +4,7 @@ tagName: lateral_movement_techniques
 search: exclude
 permalink: act_lateral_movement_techniques.html
 sidebar: home_sidebar
+toc: false
 folder: act
 ---
 

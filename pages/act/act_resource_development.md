@@ -4,6 +4,7 @@ tagName: resource_d_evelopment
 search: exclude
 permalink: act_resource_development.html
 sidebar: home_sidebar
+toc: false
 folder: act
 ---
 

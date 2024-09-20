@@ -4,6 +4,7 @@ tagName: pivoting
 search: exclude
 permalink: act_pivoting.html
 sidebar: home_sidebar
+toc: false
 folder: act
 ---
 

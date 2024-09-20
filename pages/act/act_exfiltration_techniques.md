@@ -4,6 +4,7 @@ tagName: exfiltration_techniques
 search: exclude
 permalink: act_exfiltration_techniques.html
 sidebar: home_sidebar
+toc: false
 folder: act
 ---
 

@@ -4,6 +4,7 @@ tagName: c2_techniques
 search: exclude
 permalink: act_c2_techniques.html
 sidebar: home_sidebar
+toc: false
 folder: act
 ---
 

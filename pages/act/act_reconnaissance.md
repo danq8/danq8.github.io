@@ -4,6 +4,7 @@ tagName: reconnaissance
 search: exclude
 permalink: act_reconnaissance.html
 sidebar: home_sidebar
+toc: false
 folder: act
 ---
 

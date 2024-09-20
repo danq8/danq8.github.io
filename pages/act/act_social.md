@@ -4,6 +4,7 @@ tagName: social
 search: exclude
 permalink: act_social.html
 sidebar: home_sidebar
+toc: false
 folder: act
 ---
 

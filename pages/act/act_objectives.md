@@ -4,6 +4,7 @@ tagName: objectives
 search: exclude
 permalink: act_objectives.html
 sidebar: home_sidebar
+toc: false
 folder: act
 ---
 

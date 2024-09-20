@@ -4,6 +4,7 @@ tagName: detection
 search: exclude
 permalink: act_detection.html
 sidebar: home_sidebar
+toc: false
 folder: act
 ---
 

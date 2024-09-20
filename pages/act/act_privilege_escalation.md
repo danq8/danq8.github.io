@@ -4,6 +4,7 @@ tagName: privilege_escalation
 search: exclude
 permalink: act_privilege_escalation.html
 sidebar: home_sidebar
+toc: false
 folder: act
 ---
 

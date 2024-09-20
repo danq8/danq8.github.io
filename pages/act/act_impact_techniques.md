@@ -4,6 +4,7 @@ tagName: impact_techniques
 search: exclude
 permalink: act_impact_techniques.html
 sidebar: home_sidebar
+toc: false
 folder: act
 ---
 
