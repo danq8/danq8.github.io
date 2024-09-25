@@ -5,7 +5,7 @@ last_updated: July 3, 2016
 tags: [prevention, SIEM, detection] 
 summary: "Splunk - The industry-defining SIEM that delivers comprehensive visibility, empowers accurate detection with context, and fuels operational efficiency."
 sidebar: home_sidebar
-permalink: tools_splunk.html
+permalink: tools_burpsuite.html
 toc: false
 folder: tools
 ---
@@ -57,7 +57,7 @@ folder: tools
                  </div>
                  <div class="panel-body">
                      <h4>Documentation</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                     <p></p>
                      <a href="https://docs.splunk.com/Documentation/Splunk" class="btn btn-primary">Getting Started</a>
                      <a href="https://docs.splunk.com/Documentation/" class="btn btn-primary">FULL Documentation</a>
                  </div>

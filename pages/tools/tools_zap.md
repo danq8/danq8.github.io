@@ -80,7 +80,7 @@ code block
                  </div>
                  <div class="panel-body">
                      <h4>Documentation</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                     <p></p>
                      <a href="https://www.zaproxy.org/getting-started/" class="btn btn-primary">Getting Started</a>
                      <a href="https://www.zaproxy.org/docs/" class="btn btn-primary">FULL Documentation</a>
                  </div>
