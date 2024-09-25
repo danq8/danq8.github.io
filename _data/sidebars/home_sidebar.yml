@@ -190,6 +190,15 @@ entries:
           #output: web, pdf
           output: web
 
+      - title: Detection
+        output: web
+        subfolderitems:
+
+        - title: Splunk
+          url: /tools_splunk.html
+          #output: web, pdf
+          output: web
+
       - title: Dark Web
         output: web
         subfolderitems:
