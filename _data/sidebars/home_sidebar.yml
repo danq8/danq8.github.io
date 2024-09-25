@@ -161,6 +161,11 @@ entries:
           url: /osint_networks.html
           output: web
 
+        - title: OSINT URL and files
+          url: /osint_sites.html
+          output: web
+          
+
       - title: Penetration
         output: web
         subfolderitems:
