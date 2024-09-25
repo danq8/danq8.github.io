@@ -199,6 +199,16 @@ entries:
           #output: web, pdf
           output: web
 
+        - title: Tshark
+          url: /tools_tshark.html
+          #output: web, pdf
+          output: web
+
+        - title: Wireshark
+          url: /tools_wireshark.html
+          #output: web, pdf
+          output: web
+
       - title: Dark Web
         output: web
         subfolderitems:
