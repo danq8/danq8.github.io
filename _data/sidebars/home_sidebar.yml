@@ -209,6 +209,11 @@ entries:
           #output: web, pdf
           output: web
 
+        - title: Zui
+          url: /tools_zui.html
+          #output: web, pdf
+          output: web
+
       - title: Dark Web
         output: web
         subfolderitems:
