@@ -209,7 +209,7 @@ entries:
           #output: web, pdf
           output: web
 
-        - title: Zui
+        - title: Zui (Brim)
           url: /tools_zui.html
           #output: web, pdf
           output: web
