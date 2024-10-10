@@ -14,6 +14,34 @@ Zeek is the world's leading platform for network security monitoring. Flexible, 
 
 Zeek is a passive, open-source network traffic analyser. Many operators use Zeek as a network security monitor (NSM) to support suspicious or malicious activity investigations. Zeek also supports a wide range of traffic analysis tasks beyond the security domain, including performance measurement and troubleshooting.
 
+## Commonly used switches
+```
+-C: Ignore checksum errors.
+-r: Read pcap file.
+-s: Use signature file.
+```
+
+## Examples 
+```
+zeek -r bigFlows.pcap -C dhcp-hostname.zeek
+
+zeek -C -r dns-tunneling.pcap
+
+counts of DNS unique types
+cat dns.log | zeek-cut qtype_name | sort | uniq -c
+
+Longest connection duration:
+cat conn.log | zeek-cut duration | sort -r | head -n 1
+
+Count of unique (to the domain level) DNS queries
+cat dns.log | zeek-cut query |rev | cut -d '.' -f 1-2 | rev | sort |uniq | wc -l
+
+Count connections from source IP
+cat conn.log | zeek-cut id.orig_h | sort | uniq -c
+
+List of files downloaded with extensions
+cat http.log | zeek-cut uri| sort | uniq
+```
 <br/>
 <div class="row">
 
