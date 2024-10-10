@@ -24,7 +24,7 @@ CrowdStrike Falcon® has revolutionized endpoint security by being the first and
 
 
 
-### Links
+# Links
 
 ## About
 [https://www.crowdstrike.co.uk/about-crowdstrike/](https://www.crowdstrike.co.uk/about-crowdstrike/){:target="_blank" rel="noreferrer noopener"}
@@ -44,8 +44,10 @@ CrowdStrike Falcon® has revolutionized endpoint security by being the first and
 ## Company X account
 [https://twitter.com/CrowdStrike](https://twitter.com/CrowdStrike){:target="_blank" rel="noreferrer noopener"}
 
+<br/>
+
+<a href="https://twitter.com/intent/tweet?button_hashtag=CrowdStrike&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #CrowdStrike</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <br/>
 
-{% include links.html %}
 
