@@ -209,12 +209,12 @@ entries:
           #output: web, pdf
           output: web
 
-        - title: Zeek (Bro)
+        - title: Zeek
           url: /tools_zeek.html
           #output: web, pdf
           output: web
 
-          - title: Zui (Brim)
+        - title: Zui (Brim)
           url: /tools_zui.html
           #output: web, pdf
           output: web
