@@ -40,7 +40,7 @@ CrowdStrike Falcon® has revolutionized endpoint security by being the first and
 
 <br/>
 
-<a href="https://twitter.com/intent/tweet?button_hashtag=msftsecurity&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #msftsecurity</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" href="https://twitter.com/msftsecurity?ref_src=twsrc%5Etfw">Tweets by msftsecurity</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <br/>
 
