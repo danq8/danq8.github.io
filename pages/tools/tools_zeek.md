@@ -14,7 +14,16 @@ Zeek is the world's leading platform for network security monitoring. Flexible, 
 
 Zeek is a passive, open-source network traffic analyser. Many operators use Zeek as a network security monitor (NSM) to support suspicious or malicious activity investigations. Zeek also supports a wide range of traffic analysis tasks beyond the security domain, including performance measurement and troubleshooting.
 
-## Commonly used switches
+## Zeek is command line only
+```
+zeek <options> <scripts>
+```
+
+`test1`
+``test2``
+```test3```
+
+## Commonly used options
 ```
 -C: Ignore checksum errors.
 -r: Read pcap file.
