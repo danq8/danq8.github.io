@@ -259,7 +259,7 @@ entries:
       output: web
 
       #https://harfanglab.io/
-      - title: HarfangLab
+    - title: HarfangLab
       url: /companies_HarfangLab.html
       #output: web, pdf
       output: web
