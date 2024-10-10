@@ -209,7 +209,12 @@ entries:
           #output: web, pdf
           output: web
 
-        - title: Zui (Brim)
+        - title: Zeek (Bro)
+          url: /tools_zeek.html
+          #output: web, pdf
+          output: web
+
+          - title: Zui (Brim)
           url: /tools_zui.html
           #output: web, pdf
           output: web
@@ -222,4 +227,32 @@ entries:
           url: /darkweb_getting_started.html
           output: web
 
-# Copyright 2021 Google LLC
+  - title: Cyber Security Companies
+    #output: web, pdf
+    output: web
+
+    folderitems:
+
+    - title: Crowdstrike
+      url: /companies_Crowdstrike.html
+      #output: web, pdf
+      output: web
+
+    - title: Microsoft
+      url: /companies_Microsoft.html
+      #output: web, pdf
+      output: web
+
+    - title: SentinelOne
+      url: /companies_SentinelOne.html
+      #output: web, pdf
+      output: web
+
+      #https://harfanglab.io/
+      - title: HarfangLab
+      url: /companies_HarfangLab.html
+      #output: web, pdf
+      output: web
+
+
+      
