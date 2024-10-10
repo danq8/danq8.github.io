@@ -243,8 +243,18 @@ entries:
       #output: web, pdf
       output: web
 
+    - title: Palo Alto Networks
+      url: /companies_PaloAlto.html
+      #output: web, pdf
+      output: web
+
     - title: SentinelOne
       url: /companies_SentinelOne.html
+      #output: web, pdf
+      output: web
+
+    - title: Wiz
+      url: /companies_Wiz.html
       #output: web, pdf
       output: web
 
