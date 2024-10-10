@@ -27,76 +27,25 @@ CrowdStrike Falcon® has revolutionized endpoint security by being the first and
 ## Links
 
 About
-https://www.crowdstrike.co.uk/about-crowdstrike/
-
+[https://www.crowdstrike.co.uk/about-crowdstrike/](https://www.crowdstrike.co.uk/about-crowdstrike/){:target="_blank" rel="noreferrer noopener"}
 Careers
-https://www.crowdstrike.com/careers/
+[https://www.crowdstrike.com/careers/](https://www.crowdstrike.com/careers/){:target="_blank" rel="noreferrer noopener"}
 
 Wikipedia
-https://en.wikipedia.org/wiki/CrowdStrike
+[https://en.wikipedia.org/wiki/CrowdStrike](https://en.wikipedia.org/wiki/CrowdStrike){:target="_blank" rel="noreferrer noopener"}
 
 CrowdStrike 2024 Global Threat Report
-https://www.crowdstrike.com/global-threat-report/
+[https://www.crowdstrike.com/global-threat-report/](https://www.crowdstrike.com/global-threat-report/){:target="_blank" rel="noreferrer noopener"}
 
 Details of adversaries by industry
-https://www.crowdstrike.com/adversaries/
+[https://www.crowdstrike.com/adversaries/](https://www.crowdstrike.com/adversaries/){:target="_blank" rel="noreferrer noopener"}
 
 
 Company X account
-https://twitter.com/CrowdStrike?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+[https://twitter.com/CrowdStrike](https://twitter.com/CrowdStrike){:target="_blank" rel="noreferrer noopener"}
+
 
 <br/>
-<div class="row">
-
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                           <i class="fa fa-download fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body">
-                     <h4>Downloads</h4>
-                     <p></p>
-                     <a href="https://zeek.org/get-zeek/" class="btn btn-primary">Download page</a>
-                 </div>
-             </div>
-         </div>
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                           <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body">
-                     <h4>Training</h4>
-                     <p>FREE online courses</p>
-                     <a href="https://github.com/zeek/zeek-training" class="btn btn-primary">Tutorials</a>
-                 </div>
-             </div>
-         </div>
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                           <i class="fa fa-book fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body">
-                     <h4>Documentation</h4>
-                     <p></p>
-                     <a href="https://docs.zeek.org/en/master/quickstart.html" class="btn btn-primary">Quick start</a>
-                     <a href="https://docs.zeek.org/en/master/index.html" class="btn btn-primary">Full documentation</a>
-                 </div>
-             </div>
-         </div>
-</div>
-
-
 
 {% include links.html %}
 
