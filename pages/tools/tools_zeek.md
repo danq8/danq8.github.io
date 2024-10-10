@@ -10,8 +10,11 @@ toc: false
 folder: tools
 ---
 
-## Zeek (formerly Bro) is the world's leading platform for network security monitoring. Flexible, open-source, and powered by defenders.
+Zeek is the world's leading platform for network security monitoring. Flexible, open-source, and powered by defenders.
 
+Zeek is a passive, open-source network traffic analyser. Many operators use Zeek as a network security monitor (NSM) to support suspicious or malicious activity investigations. Zeek also supports a wide range of traffic analysis tasks beyond the security domain, including performance measurement and troubleshooting.
+
+<br/>
 <div class="row">
 
          <div class="col-md-3 col-sm-6">
