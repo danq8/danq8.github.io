@@ -12,7 +12,7 @@ folder: tools
 
 The Microsoft Defender family offers comprehensive threat prevention, detection, and response capabilities for everyone—from individuals looking to protect their family to the world’s largest enterprises.
 
-CrowdStrike Falcon® has revolutionized endpoint security by being the first and only solution to unify next-generation antivirus, endpoint detection and response (EDR), and a 24/7 threat hunting service — all delivered via a single lightweight agent.
+
 
 | Bundle                             | Market            | Description                                                                |
 |:-----------------------------------|:------------------|:---------------------------------------------------------------------------|
