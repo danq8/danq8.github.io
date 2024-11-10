@@ -269,8 +269,7 @@ The TIBER-EU framework is designed for entities that provide core financial infr
 
 ## Framework document
 [https://www.ecb.europa.eu/pub/pdf/other/ecb.tiber_eu_framework.en.pdf](https://www.ecb.europa.eu/pub/pdf/other/ecb.tiber_eu_framework.en.pdf)
-<br/>[https://www.cisecurity.org/controls/cis-controls-list](https://www.cisecurity.org/controls/cis-controls-list)
-<br/>Tools to help a company map and comply with industry regulations
+
 <br/><br/>
 
 
