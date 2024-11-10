@@ -264,5 +264,8 @@ entries:
       #output: web, pdf
       output: web
 
-
+    - title: Dragos
+      url: /companies_Dragos.html
+      #output: web, pdf
+      output: web
       
