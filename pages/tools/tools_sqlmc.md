@@ -20,8 +20,8 @@ folder: tools
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
 <ul>
-<li>-u, --url: The URL to scan (required)<li/><li>-d, --depth: The depth to scan (required)<li/><li>-o, --output: The output file to save the results<li/>
-<ul/>
+<li>-u, --url: The URL to scan (required)</li><li>-d, --depth: The depth to scan (required)</li><li>-o, --output: The output file to save the results</li>
+</ul>
 Example usage:
 
 
