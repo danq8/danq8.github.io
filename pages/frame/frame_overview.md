@@ -124,7 +124,7 @@ The MITRE Cyber Analytics Repository (CAR) is a knowledge base of analytics deve
 Caldera is a cybersecurity framework developed by MITRE that empowers cyber practitioners to save time, money, and energy through automated security assessments.
 
 The Atomic Red Team have a similar offering here:
-[https://github.com/redcanaryco/atomic-red-team]([)https://github.com/redcanaryco/atomic-red-team){:target="_blank" rel="noreferrer noopener"}
+[https://github.com/redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team){:target="_blank" rel="noreferrer noopener"}
 
 With a comparison here:
 
