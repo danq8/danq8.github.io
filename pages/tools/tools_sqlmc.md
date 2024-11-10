@@ -20,16 +20,13 @@ folder: tools
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
 <ul>
-<li>-u, --url: The URL to scan (required)<li/>
-<li>-d, --depth: The depth to scan (required)<li/>
-<li>-o, --output: The output file to save the results<li/>
+<li>-u, --url: The URL to scan (required)<li/><li>-d, --depth: The depth to scan (required)<li/><li>-o, --output: The output file to save the results<li/>
 <ul/>
 Example usage:
-sqlmc -u http://example.com -d 2
-                                <br/>here.
+
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-code block
+sqlmc -u http://example.com -d 2
 </code></pre></div></div>
 
 
