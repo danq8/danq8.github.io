@@ -209,8 +209,23 @@ entries:
           #output: web, pdf
           output: web
 
+        - title: Cobalt Strike
+          url: /tools_cobalt_strike.html
+          #output: web, pdf
+          output: web
+
         - title: GhostStrike
           url: /tools_ghoststrike.html
+          #output: web, pdf
+          output: web
+
+        - title: Havoc
+          url: /tools_havoc.html
+          #output: web, pdf
+          output: web
+
+        - title: Merlin
+          url: /tools_merlin.html
           #output: web, pdf
           output: web
 

@@ -1,8 +1,8 @@
 ---
 title: Sherlock
-keywords: sherlock, prevention, reconnaissance
+keywords: sherlock, prevention, reconnaissance, social
 last_updated: July 3, 2016
-tags: [prevention, reconnaissance] 
+tags: [prevention, reconnaissance, social] 
 summary: "Hunt down social media accounts by username across social networks"
 sidebar: home_sidebar
 permalink: tools_sherlock.html
