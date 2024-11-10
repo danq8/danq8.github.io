@@ -5,7 +5,7 @@ last_updated: July 3, 2016
 tags: [reconnaissance, detection] 
 summary: "investigate for target emails in a fast and efficient manner"
 sidebar: home_sidebar
-permalink: tools_wazuh.html
+permalink: tools_mosint.html
 toc: false
 folder: tools
 ---

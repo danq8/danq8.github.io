@@ -5,7 +5,7 @@ last_updated: July 3, 2016
 tags: [osint] 
 summary: ""
 sidebar: home_sidebar
-permalink: tools_social_analyzer.html
+permalink: tools_theharvester.html
 toc: false
 folder: tools
 ---
