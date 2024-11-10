@@ -194,13 +194,23 @@ entries:
           #output: web, pdf
           output: web
 
-        - title: Adalanche
+        - title: BobTheSmuggler
           url: /tools_bobthesmuggler.html
+          #output: web, pdf
+          output: web
+
+        - title: BloodHound
+          url: /tools_bloodhound.html
           #output: web, pdf
           output: web
 
         - title: Burpsuite
           url: /tools_burpsuite.html
+          #output: web, pdf
+          output: web
+
+        - title: GhostStrike
+          url: /tools_ghoststrike.html
           #output: web, pdf
           output: web
 
@@ -232,6 +242,11 @@ entries:
       - title: Detection
         output: web
         subfolderitems:
+
+        - title: ELK
+          url: /tools_elk.html
+          #output: web, pdf
+          output: web
 
         - title: Ghidra
           url: /tools_ghidra.html

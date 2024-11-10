@@ -26,6 +26,9 @@ CrowdStrike Falcon® has revolutionized endpoint security by being the first and
 
 # Links
 
+## Product Documentation
+[LogScale training](https://library.humio.com/training/ui-tutorial.html){:target="_blank" rel="noreferrer noopener"}
+
 ## About
 [https://www.crowdstrike.co.uk/about-crowdstrike/](https://www.crowdstrike.co.uk/about-crowdstrike/){:target="_blank" rel="noreferrer noopener"}
 
