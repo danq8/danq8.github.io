@@ -32,14 +32,14 @@ CrowdStrike Falcon® has revolutionized endpoint security by being the first and
 ## Careers
 [https://www.crowdstrike.com/careers/](https://www.crowdstrike.com/careers/){:target="_blank" rel="noreferrer noopener"}
 
+## Wikipedia
+[https://en.wikipedia.org/wiki/CrowdStrike](https://en.wikipedia.org/wiki/CrowdStrike){:target="_blank" rel="noreferrer noopener"}
+
 ## CrowdStrike 2024 Global Threat Report
 [https://www.crowdstrike.com/global-threat-report/](https://www.crowdstrike.com/global-threat-report/){:target="_blank" rel="noreferrer noopener"}
 
 ## Details of adversaries by industry
 [https://www.crowdstrike.com/adversaries/](https://www.crowdstrike.com/adversaries/){:target="_blank" rel="noreferrer noopener"}
-
-## Wikipedia
-[https://en.wikipedia.org/wiki/CrowdStrike](https://en.wikipedia.org/wiki/CrowdStrike){:target="_blank" rel="noreferrer noopener"}
 
 ## Company X account
 [https://twitter.com/CrowdStrike](https://twitter.com/CrowdStrike){:target="_blank" rel="noreferrer noopener"}
