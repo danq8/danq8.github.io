@@ -12,6 +12,7 @@ folder: tools
 
 Wazuh - The Open Source Security Platform
 Unified XDR and SIEM protection for endpoints and cloud workloads.
+
 [https://wazuh.com/](https://wazuh.com/){:target="_blank" rel="noreferrer noopener"}
 [https://www.virtualizationhowto.com/2023/10/wazuh-open-source-siem-xdr-for-enterprise-and-home-lab/](https://www.virtualizationhowto.com/2023/10/wazuh-open-source-siem-xdr-for-enterprise-and-home-lab/){:target="_blank" rel="noreferrer noopener"}
 

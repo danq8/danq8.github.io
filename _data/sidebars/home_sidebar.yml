@@ -169,6 +169,14 @@ entries:
           url: /tools_mosint.html
           output: web
 
+        - title: OWASP Amass
+          url: /tools_owasp_amass.html
+          output: web
+
+        - title: Sherlock
+          url: /tools_sherlock.html
+          output: web
+
       - title: Penetration
         output: web
         subfolderitems:
@@ -265,6 +273,17 @@ entries:
       #output: web, pdf
       output: web
 
+    - title: Dragos
+      url: /companies_Dragos.html
+      #output: web, pdf
+      output: web
+
+      #https://harfanglab.io/
+    - title: HarfangLab
+      url: /companies_HarfangLab.html
+      #output: web, pdf
+      output: web
+
     - title: Microsoft
       url: /companies_Microsoft.html
       #output: web, pdf
@@ -285,14 +304,6 @@ entries:
       #output: web, pdf
       output: web
 
-      #https://harfanglab.io/
-    - title: HarfangLab
-      url: /companies_HarfangLab.html
-      #output: web, pdf
-      output: web
 
-    - title: Dragos
-      url: /companies_Dragos.html
-      #output: web, pdf
-      output: web
+
       
