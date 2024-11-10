@@ -1,52 +1,46 @@
 ---
-title: Crowdstrike
-keywords: Crowdstrike
+title: Dragos
+keywords: Dragos
 last_updated: 10 Oct, 2024
-tags: [Crowdstrike] 
-summary: "Crowdstrike: Stop breaches. Drive business."
+tags: [Dragos] 
+summary: "Dragos Platform: Protect What Matters Most"
 sidebar: home_sidebar
-permalink: companies_Crowdstrike.html
+permalink: companies_Dragos.html
 toc: false
 folder: tools
 ---
 
-CrowdStrike is a global cybersecurity leader with an advanced cloud-native platform for protecting endpoints, cloud workloads, identities and data.
+Dragos is the Industrial Cybersecurity company on a relentless mission to safeguardcivilization						
 
-CrowdStrike Falcon® has revolutionized endpoint security by being the first and only solution to unify next-generation antivirus, endpoint detection and response (EDR), and a 24/7 threat hunting service — all delivered via a single lightweight agent.
+In a world of rising cybersecurity threats, Dragos protects the most critical infrastructure — those that provide us with the tenets of modern civilization — from increasingly capable adversaries who wish to do it harm. Devoted to codifying and sharing our in-depth industry knowledge of OT systems, Dragos arms industrial defenders around the world with the knowledge and tools to protect their systems as effectively and efficiently as possible.
 
-| Bundle             | Market            | Description                                                                |
-|:-------------------|:------------------|:---------------------------------------------------------------------------|
-| Falcon Go          | SOHO              | Next-gen antivirus, Device control, Express support                        |
-| Falcon Pro         | Small / Medium    | Next-gen antivirus, Device control, Express support + Firewall management |
-| Falcon Flex        | Medium / Large    | Add / remove as you need                                                   |
-| Falcon Enterprise  | Enterprise        | Next-gen antivirus, Device control, Express support, Firewall management, Endpoint detection and response, Threat hunting |
-| Falcon Elite       | Enterprise        | Next-gen antivirus, Device control, Express support, Firewall management, Endpoint detection and response, Threat hunting, IT Hygiene, Identity protection |
+A Cybersecurity Platform Built for OT Environments
+Our OT-native cybersecurity technology supports uptime and productivity in industrial environments. The Dragos Platform was built to monitor networks and detect threats without disruption, addresses vulnerabilities without shutdowns, and respond to adversaries confidently.
+
+
 
 
 
 # Links
 
 ## About
-[https://www.crowdstrike.co.uk/about-crowdstrike/](https://www.crowdstrike.co.uk/about-crowdstrike/){:target="_blank" rel="noreferrer noopener"}
+[https://www.dragos.com/about/](https://www.dragos.com/about/){:target="_blank" rel="noreferrer noopener"}
 
 ## Careers
-[https://www.crowdstrike.com/careers/](https://www.crowdstrike.com/careers/){:target="_blank" rel="noreferrer noopener"}
+[https://www.dragos.com/careers/](https://www.dragos.com/careers/){:target="_blank" rel="noreferrer noopener"}
+
+## Blog
+[https://www.dragos.com/blog/](https://www.dragos.com/blog/){:target="_blank" rel="noreferrer noopener"}
 
 ## Wikipedia
-[https://en.wikipedia.org/wiki/CrowdStrike](https://en.wikipedia.org/wiki/CrowdStrike){:target="_blank" rel="noreferrer noopener"}
-
-## CrowdStrike 2024 Global Threat Report
-[https://www.crowdstrike.com/global-threat-report/](https://www.crowdstrike.com/global-threat-report/){:target="_blank" rel="noreferrer noopener"}
-
-## Details of adversaries by industry
-[https://www.crowdstrike.com/adversaries/](https://www.crowdstrike.com/adversaries/){:target="_blank" rel="noreferrer noopener"}
+[](){:target="_blank" rel="noreferrer noopener"}
 
 ## Company X account
-[https://twitter.com/CrowdStrike](https://twitter.com/CrowdStrike){:target="_blank" rel="noreferrer noopener"}
+[https://twitter.com/DragosInc](https://twitter.com/DragosInc){:target="_blank" rel="noreferrer noopener"}
 
 <br/>
 
-<a class="twitter-timeline" href="https://twitter.com/CrowdStrike?ref_src=twsrc%5Etfw">Tweets by CrowdStrike</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" href="https://twitter.com/DragosInc">Tweets by Dragos</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <br/>
 
