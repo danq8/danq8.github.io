@@ -19,7 +19,11 @@ A list of tools, with links to downloads, documentation etc.
 
 [Binary difference viewer](https://github.com/google/bindiff){:target="_blank" rel="noreferrer noopener"}
 
-[https://www.shodan.io/](https://www.shodan.io/){:target="_blank" rel="noreferrer noopener"}
+[The Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hacking-database){:target="_blank" rel="noreferrer noopener"}
+
+[The Wayback Machine](https://web.archive.org/){:target="_blank" rel="noreferrer noopener"}
+
+[Shodan advanced search](https://www.shodan.io/){:target="_blank" rel="noreferrer noopener"}
 
 
 <h1>Lists of tools</h1>

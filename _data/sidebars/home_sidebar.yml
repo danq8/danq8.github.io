@@ -189,8 +189,23 @@ entries:
         output: web
         subfolderitems:
 
+        - title: Adalanche
+          url: /tools_adalanche.html
+          #output: web, pdf
+          output: web
+
+        - title: Adalanche
+          url: /tools_bobthesmuggler.html
+          #output: web, pdf
+          output: web
+
         - title: Burpsuite
           url: /tools_burpsuite.html
+          #output: web, pdf
+          output: web
+
+        - title: Network Flightsim
+          url: /tools_flightsim.html
           #output: web, pdf
           output: web
 
