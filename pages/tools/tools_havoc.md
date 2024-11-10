@@ -2,7 +2,7 @@
 title: Havoc
 keywords: Havoc, defense evasion techniques, c2 techniques, execution techniques
 last_updated: July 3, 2016
-tags: [defense_evasion_techniques, c2_techniques, execution_techniques] 
+tags: [defense_evasion, c2_techniques, execution_techniques] 
 summary: ""
 sidebar: home_sidebar
 permalink: tools_havoc.html
