@@ -1,17 +1,17 @@
 ---
-title: sqlmc
-keywords: sqlmc, security assesment, pentesting
+title: Ghidra
+keywords: ghidra, response
 last_updated: July 3, 2016
-tags: [security_assesment, pentest] 
-summary: "SQL Injection Massive Checker"
+tags: [response] 
+summary: "Software reverse engineering suite"
 sidebar: home_sidebar
-permalink: tools_sqlmc.html
+permalink: tools_ghidra.html
 toc: false
 folder: tools
 ---
 
-SQLMC (SQL Injection Massive Checker) is a tool designed to scan a domain for SQL injection vulnerabilities. It crawls the given URL up to a specified depth, checks each link for SQL injection vulnerabilities, and reports its findings.
-[https://github.com/malvads/sqlmc](https://github.com/malvads/sqlmc){:target="_blank" rel="noreferrer noopener"}
+Ghidra - A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
+[https://ghidra-sre.org/](https://ghidra-sre.org/){:target="_blank" rel="noreferrer noopener"}
 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
