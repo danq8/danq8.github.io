@@ -3,7 +3,7 @@ title: GhostStrike
 keywords: ghoststrike, resource development, delivery techniques, exploitation techniques, defense evasion techniques, c2 techniques, execution techniques
 last_updated: July 3, 2016
 tags: [resource_development, delivery_techniques, exploitation_techniques, defense_evasion_techniques, c2_techniques, execution_techniques] 
-summary: ""
+summary: "GhostStrike is an advanced cybersecurity tool designed for Red Team operations"
 sidebar: home_sidebar
 permalink: tools_ghoststrike.html
 toc: false

@@ -3,7 +3,7 @@ title: Covenant
 keywords: covenant, resource development, delivery techniques, exploitation techniques, defense evasion techniques, c2 techniques, execution techniques
 last_updated: July 3, 2016
 tags: [resource_development, delivery_techniques, exploitation_techniques, defense_evasion_techniques, c2_techniques, execution_techniques] 
-summary: ""
+summary: "Covenant C2 is a command and control (C&C) framework that makes it easy to exploit web applications and their supporting network environments"
 sidebar: home_sidebar
 permalink: tools_covenant.html
 toc: false
