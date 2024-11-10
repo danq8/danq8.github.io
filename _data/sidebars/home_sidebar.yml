@@ -177,6 +177,14 @@ entries:
           url: /tools_sherlock.html
           output: web
 
+        - title: Social Analyzer
+          url: /tools_social_analyzer.html
+          output: web
+
+        - title: theHarvester
+          url: /tools_theharvester.html
+          output: web
+
       - title: Penetration
         output: web
         subfolderitems:

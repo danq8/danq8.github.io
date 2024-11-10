@@ -15,6 +15,7 @@ The OWASP Amass Project has developed a framework to help information security p
 The framework includes a collection engine for asset discovery, an asset database for storage of findings, and the Open Asset Model, used by various tooling to help understand attack surfaces.
 
 [https://owasp.org/www-project-amass/](https://owasp.org/www-project-amass/){:target="_blank" rel="noreferrer noopener"}
+
 [https://github.com/owasp-amass/amass](https://github.com/owasp-amass/amass){:target="_blank" rel="noreferrer noopener"}
 
 
