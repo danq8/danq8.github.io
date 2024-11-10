@@ -14,7 +14,11 @@ A list of tools, with links for gaining information about networks and devices
 
 
 
-<br/><br/>
+<br/>
+## RDAP - (The new WHOIS)
+[https://rdap.dev/](https://rdap.dev/){:target="_blank" rel="noreferrer noopener"}
+
+<br/>
 
 ## OSINT Framework
 [https://osintframework.com/](https://osintframework.com/){:target="_blank" rel="noreferrer noopener"}

@@ -175,17 +175,22 @@ entries:
           #output: web, pdf
           output: web
 
-        - title: Metasploit *
+        - title: Metasploit
           url: /tools_metasploit.html
           #output: web, pdf
           output: web
 
-        - title: NMap *
+        - title: NMap
           url: /tools_nmap.html
           #output: web, pdf
           output: web
-          
-        - title: Zap *
+
+        - title: sqlmc
+          url: /tools_sqlmc.html
+          #output: web, pdf
+          output: web
+
+        - title: Zap
           url: /tools_zap.html
           #output: web, pdf
           output: web

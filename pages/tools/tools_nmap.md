@@ -1,5 +1,5 @@
 ---
-title: NMap <span class="label label-success">Fave</span>
+title: NMap
 keywords: NMap, security assesment, pentesting
 last_updated: July 3, 2016
 tags: [security_assesment, pentest] 
@@ -692,59 +692,6 @@ You could also view the full set of features by running Nmap with no options. Th
                     </div>
 </div>
 <!-- /.panel-group -->
-
-
-<div class="row">
-         <div class="col-lg-12">
-             <h2 class="page-header">Zap</h2>
-         </div>
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                           <i class="fa fa-download fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body">
-                     <h4>Downloads</h4>
-                     <p>Start with the community edition</p>
-                     <a href="https://docs.metasploit.com/docs/using-metasploit/getting-started/nightly-installers.html" class="btn btn-primary">Download</a>
-                 </div>
-             </div>
-         </div>
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                           <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body">
-                     <h4>Training</h4>
-                     <p>FREE online course</p>
-                     <a href="https://www.offsec.com/metasploit-unleashed/" class="btn btn-primary">Metasploit Unleashed</a>
-                 </div>
-             </div>
-         </div>
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                           <i class="fa fa-book fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body">
-                     <h4>Documentation</h4>
-                     <p></p>
-                     <a href="https://docs.metasploit.com/docs/using-metasploit/getting-started/" class="btn btn-primary">Getting Started</a>
-                     <a href="https://docs.metasploit.com/" class="btn btn-primary">FULL Documentation</a>
-                 </div>
-             </div>
-         </div>
-</div>
 
 
 

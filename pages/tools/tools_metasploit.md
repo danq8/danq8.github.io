@@ -1,5 +1,5 @@
 ---
-title: Metasploit <span class="label label-success">Fave</span>
+title: Metasploit
 keywords: Metasploit, security assesment, pentesting
 last_updated: July 3, 2016
 tags: [security_assesment, pentest] 
@@ -21,7 +21,7 @@ folder: tools
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
-                                Usage notes on ZAP
+                                Usage notes on Metasploit
                                 <br/>here.
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
@@ -38,7 +38,7 @@ code block
 
 <div class="row">
          <div class="col-lg-12">
-             <h2 class="page-header">Zap</h2>
+             <h2 class="page-header">Metasploit</h2>
          </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
