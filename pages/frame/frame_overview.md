@@ -17,6 +17,7 @@ folder: tools
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
+{{"
 
 ## OWASP
 
@@ -67,9 +68,6 @@ Considerations for testing firmware and IoT applications
 " | markdownify }}
 
 
-<!--div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-code block
-</code></pre></div></div-->
 
 
                             </div>
