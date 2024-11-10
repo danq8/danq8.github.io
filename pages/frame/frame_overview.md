@@ -19,7 +19,7 @@ folder: tools
                             <div class="panel-body">
 
 {{"
-
+{% raw %}
 ## OWASP
 
 The Open Worldwide Application Security Project, a nonprofit foundation that works to improve the security of software.
@@ -27,7 +27,7 @@ The Open Worldwide Application Security Project, a nonprofit foundation that wor
 <br/><br/>
 
 ## OWASP Top 10
-[https://owasp.org/www-project-top-ten](https://owasp.org/www-project-top-ten)/\{\{/:target='_blank' rel='noreferrer noopener'/\}\}/
+[https://owasp.org/www-project-top-ten](https://owasp.org/www-project-top-ten){:target='_blank' rel='noreferrer noopener'}
 
 Top 10 Web Application Security Risks
 
@@ -65,7 +65,7 @@ Considerations for testing Mobile applications
 Considerations for testing firmware and IoT applications
 
 <br/><br/>
-
+{% endraw %}
 " | markdownify }}
 
 
