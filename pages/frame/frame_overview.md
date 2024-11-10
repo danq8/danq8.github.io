@@ -27,7 +27,7 @@ The Open Worldwide Application Security Project, a nonprofit foundation that wor
 <br/><br/>
 
 ## OWASP Top 10
-[https://owasp.org/www-project-top-ten](https://owasp.org/www-project-top-ten){:target='_blank' rel='noreferrer noopener'}
+[https://owasp.org/www-project-top-ten](https://owasp.org/www-project-top-ten)
 
 Top 10 Web Application Security Risks
 
