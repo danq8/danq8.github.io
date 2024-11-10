@@ -262,13 +262,12 @@ TIBER-EU is a European framework for threat intelligence-based ethical red-teami
 
 The TIBER-EU framework is designed for entities that provide core financial infrastructure (including those whose cross border activities fall within the regulatory remits of several different authorities) and national/supranational authorities. It can be used for entities in all critical sectors, not just the financial sector. In addition to a number of mandatory requirements, the framework also includes optional requirements that can be adapted to the specificities of individual jurisdictions. The TIBER EU framework harmonises threat intelligence-based ethical red-teaming and facilitates mutual recognition, reducing the burden on entities and authorities alike.
 
-## CIS Benchmarks
+## About
 [https://www.ecb.europa.eu/paym/cyber-resilience/tiber-eu/html/index.en.html](https://www.ecb.europa.eu/paym/cyber-resilience/tiber-eu/html/index.en.html)
 
-A list of Operating Systems and devices and advice on how to harden them against attack.
 <br/><br/>
 
-## CIS Security Controls
+## Framework document
 [https://www.ecb.europa.eu/pub/pdf/other/ecb.tiber_eu_framework.en.pdf](https://www.ecb.europa.eu/pub/pdf/other/ecb.tiber_eu_framework.en.pdf)
 <br/>[https://www.cisecurity.org/controls/cis-controls-list](https://www.cisecurity.org/controls/cis-controls-list)
 <br/>Tools to help a company map and comply with industry regulations
