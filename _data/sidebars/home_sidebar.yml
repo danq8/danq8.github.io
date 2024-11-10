@@ -165,6 +165,9 @@ entries:
           url: /osint_sites.html
           output: web
           
+        - title: mosint
+          url: /tools_mosint.html
+          output: web
 
       - title: Penetration
         output: web
@@ -172,11 +175,6 @@ entries:
 
         - title: Burpsuite
           url: /tools_burpsuite.html
-          #output: web, pdf
-          output: web
-
-        - title: Ghidra
-          url: /tools_ghidra.html
           #output: web, pdf
           output: web
 
@@ -204,6 +202,11 @@ entries:
         output: web
         subfolderitems:
 
+        - title: Ghidra
+          url: /tools_ghidra.html
+          #output: web, pdf
+          output: web
+
         - title: Splunk
           url: /tools_splunk.html
           #output: web, pdf
@@ -211,6 +214,11 @@ entries:
 
         - title: Tshark
           url: /tools_tshark.html
+          #output: web, pdf
+          output: web
+
+        - title: Wazuh
+          url: /tools_wazuh.html
           #output: web, pdf
           output: web
 
@@ -226,6 +234,15 @@ entries:
 
         - title: Zui (Brim)
           url: /tools_zui.html
+          #output: web, pdf
+          output: web
+
+      - title: Threat Intelligence
+        output: web
+        subfolderitems:
+
+        - title: IntelOwl
+          url: /tools_intelowl.html
           #output: web, pdf
           output: web
 

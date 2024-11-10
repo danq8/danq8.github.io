@@ -12,6 +12,9 @@ folder: tools
 
 Ghidra - A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
 [https://ghidra-sre.org/](https://ghidra-sre.org/){:target="_blank" rel="noreferrer noopener"}
+
+[https://github.com/NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra){:target="_blank" rel="noreferrer noopener"}
+
 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
