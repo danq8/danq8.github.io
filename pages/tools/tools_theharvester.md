@@ -1,9 +1,9 @@
 ---
 title: the Harvester
-keywords: theharvester, osint
+keywords: theharvester, osint, social
 last_updated: July 3, 2016
-tags: [osint] 
-summary: ""
+tags: [osint, social] 
+summary: "Gathers names, emails, IPs, subdomains, and URLs by using multiple public resources."
 sidebar: home_sidebar
 permalink: tools_theharvester.html
 toc: false

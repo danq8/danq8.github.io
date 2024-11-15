@@ -1,11 +1,11 @@
 ---
-title: Sherlock
-keywords: sherlock, prevention, reconnaissance, social
+title: fcrack
+keywords: fcrack, response, reconnaissance
 last_updated: July 3, 2016
-tags: [prevention, reconnaissance, social] 
+tags: [response, reconnaissance] 
 summary: "Hunt down social media accounts by username across social networks"
 sidebar: home_sidebar
-permalink: tools_sherlock.html
+permalink: tools_fcrackzip.html
 toc: false
 folder: tools
 ---
