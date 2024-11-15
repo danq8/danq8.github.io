@@ -12,11 +12,12 @@ folder: tools
 
 
 ```java
-fcrackzip -b BruteForceAttack.zip -u -c a1 -l 6; espeak 'OK I'm done with that'
+fcrackzip -b BruteForceAttack.zip -u -c a1 -l 6; espeak "OK I'm done with that"
+
 fcrackzip -D -u -p /usr/share/wordlists/rockyou.txt DictionaryAttack.zip; espeak "OK I'm done with that" 
 ```
 
-<h3>Alternative</h3>
+<h2>Alternative</h2>
 ```
 zip2john BruteForceAttack.zip > BruteForceAttack.hash
 
@@ -29,7 +30,8 @@ Add lines to john.conf (on Unix-like systems) or john.ini (windows)
 john BruteForceAttack.hash 
 ```
 
-<code>
+<h2>Usage</h2>
+```java
 USAGE: fcrackzip
           [-b|--brute-force]            use brute force algorithm
           [-D|--dictionary]             use a dictionary
@@ -45,11 +47,9 @@ USAGE: fcrackzip
           [-m|--method num]             use method number "num" (see below)
           [-2|--modulo r/m]             only calculcate 1/m of the password
           file...                    the zipfiles to crack
-</code>
+```
 
 [https://www.kali.org/tools/fcrackzip/](https://www.kali.org/tools/fcrackzip/){:target="_blank" rel="noreferrer noopener"}
-
-[https://github.com/sherlock-project/sherlock](https://github.com/sherlock-project/sherlock){:target="_blank" rel="noreferrer noopener"}
 
 
 
