@@ -1,9 +1,9 @@
 ---
-title: fcrack
-keywords: fcrack, response, reconnaissance
+title: fcrackzip
+keywords: fcrackzip, response, reconnaissance
 last_updated: July 3, 2016
 tags: [response, reconnaissance] 
-summary: "Hunt down social media accounts by username across social networks"
+summary: "Discover passwords protecting archive files"
 sidebar: home_sidebar
 permalink: tools_fcrackzip.html
 toc: false
@@ -11,10 +11,10 @@ folder: tools
 ---
 
 
-<code>
+'''
 fcrackzip -b BruteForceAttack.zip -u -c a1 -l 6; espeak 'OK I'm done with that'
 fcrackzip -D -u -p /usr/share/wordlists/rockyou.txt DictionaryAttack.zip; espeak "OK I'm done with that" 
-</code>
+'''
 
 <h3>Alternative</h3>
 <code>
