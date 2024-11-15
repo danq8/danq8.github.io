@@ -11,13 +11,13 @@ folder: tools
 ---
 
 
-'''
+'''http
 fcrackzip -b BruteForceAttack.zip -u -c a1 -l 6; espeak 'OK I'm done with that'
 fcrackzip -D -u -p /usr/share/wordlists/rockyou.txt DictionaryAttack.zip; espeak "OK I'm done with that" 
 '''
 
 <h3>Alternative</h3>
-<code>
+'''html
 zip2john BruteForceAttack.zip > BruteForceAttack.hash
 
 Add lines to john.conf (on Unix-like systems) or john.ini (windows)
@@ -27,7 +27,7 @@ Add lines to john.conf (on Unix-like systems) or john.ini (windows)
 	MaxLen = 8
 
 john BruteForceAttack.hash 
-</code>
+'''
 
 <code>
 USAGE: fcrackzip
