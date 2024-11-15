@@ -263,6 +263,11 @@ entries:
           #output: web, pdf
           output: web
 
+        - title: fcrack
+          url: /tools_fcrackzip.html
+          #output: web, pdf
+          output: web
+
         - title: Ghidra
           url: /tools_ghidra.html
           #output: web, pdf
