@@ -212,7 +212,7 @@ layout: default
 
                     // When the Copy button is clicked call the copyToClipboard function and pass it the contents of the <pre>
                     span.onclick = function (e) {
-                        copyToClipboard(this.parentNode.innerText.replace(label, '').trim(), this)
+                        copyToClipboard(span.innerText.replace(label, '').trim(), this)
                     }
                 }
             }
