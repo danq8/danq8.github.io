@@ -12,9 +12,13 @@ folder: act
 
 
 Here's some scripts to try (on friendly CTF servers!)
+
 Windows "Peas"
+
 [https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS){:target="_blank" rel="noreferrer noopener"}
+
 Linux "Peas"
+
 [https://grimbins.github.io/grimbins/linpeas/](https://grimbins.github.io/grimbins/linpeas/){:target="_blank" rel="noreferrer noopener"}
 
 <div class="panel-group" id="accordion">
