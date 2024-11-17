@@ -21,7 +21,7 @@ folder: act
                         </div>
                         <div id="collapseFive" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
-{% include net_windows_AD.html %}
+{% include pages/networks/net_windows_AD.html %}
                             </div>
                         </div>
                     </div>
