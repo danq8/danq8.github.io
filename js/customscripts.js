@@ -185,7 +185,7 @@ $(function() {
                     span.style.display = 'inline-block';
                     span.style.position = 'absolute';
                     // span.style.top = '9px';
-                    // span.style.right = '10px';
+                    span.style.right = '10px';
                     span.style.cursor = 'pointer';
                     // span.style.padding = '2px 15px 2px 15px';
                     // span.style.fontWeight = 'bold';
@@ -193,7 +193,7 @@ $(function() {
                     // span.style.lineHeight = '15px';
                     // span.style.overflow = 'hidden';
                     //elmPre[i].appendChild(span);
-                    elmCod[j].insertBefore(span,elmCod[j].firstChild);
+                    elmCod[j].insertBefore(span,elmCod[j]);
 
                     // When the Copy button is clicked call the copyToClipboard function and pass it the contents of the <pre>
                     span.onclick = function (e) {
