@@ -12,7 +12,18 @@ folder: tools
 
 
 <style>
-    .powershell-screenshot {
+.powershell-screenshot {
+  background-color: #0037DA;
+  color: #C19C00;
+  font-family: Consolas, monospace;
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  overflow-x: auto; /* For horizontal scrolling if needed */
+}
+
+.bash-screenshot {
   background-color: #000;
   color: #00FF00;
   font-family: Consolas, monospace;

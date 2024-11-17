@@ -320,6 +320,18 @@ entries:
           url: /darkweb_getting_started.html
           output: web
 
+
+  - title: Network Specific
+    #output: web, pdf
+    output: web
+
+    folderitems:
+
+    - title: Windows
+      url: /net_windows_AD.html
+      #output: web, pdf
+      output: web
+
   - title: Cyber Security Companies
     #output: web, pdf
     output: web
