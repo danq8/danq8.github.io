@@ -34,10 +34,109 @@ We're looking for:
                             <div class="panel-body">
 {{"
 
+## System information
+
+Let\'s see what system we\'ve landed on?
+
 <pre class='bash-screenshot'>
 <code>ls /etc/*-release</code>
 </pre>
 
+<pre class='bash-screenshot'>
+<code>cat /etc/os-release</code>
+</pre>
+
+What\'s the name of this machine?
+
+<pre class='bash-screenshot'>
+<code>hostname</code>
+</pre>
+
+## User details
+
+who\'s been here?
+
+<pre class='bash-screenshot'>
+<code>cat /etc/passwd</code>
+</pre>
+
+What groups exist?
+
+<pre class='bash-screenshot'>
+<code>cat /etc/group</code>
+</pre>
+
+If we can... let's get the password hashes
+
+<pre class='bash-screenshot'>
+<code>sudo cat /etc/shadow</code>
+</pre>
+
+Any mail?
+
+<pre class='bash-screenshot'>
+<code>ls -lh /var/mail/</code>
+</pre>
+
+Who\'s logged on to this machine?
+
+<pre class='bash-screenshot'>
+<code>who</code>
+</pre>
+
+Who are we currently logged on as?
+
+<pre class='bash-screenshot'>
+<code>whoami</code>
+
+and
+
+<code>id</code>
+</pre>
+
+What\'s everyone up to at the moment?
+
+<pre class='bash-screenshot'>
+<code>w</code>
+</pre>
+
+Let\'s look at some history in case there\'s a better time to come back?
+
+<pre class='bash-screenshot'>
+<code>last</code>
+</pre>
+
+
+## Networking details
+
+What network cards are on this machine?
+<pre class='bash-screenshot'>
+<code>ip a s</code>
+</pre>
+
+Where\'s the DNS?
+<pre class='bash-screenshot'>
+<code>cat /etc/resolv.conf</code>
+</pre>
+
+If you have root, see what's connecting 
+<pre class='bash-screenshot'>
+<code>sudo netstat -plt</code>
+</pre>
+
+Any connections out?
+
+<pre class='bash-screenshot'>
+<code>sudo lsof -i</code>
+</pre>
+
+## Services details
+
+What\'s cooking?
+
+<pre class='bash-screenshot'>
+<code>ps axf</code>
+</pre>
 
 
 " | markdownify }}
