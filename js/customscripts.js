@@ -184,7 +184,7 @@ $(function() {
                     span.style.color = 'black';
                     span.style.display = 'inline-block';
                     span.style.position = 'absolute';
-                    span.style.top = '9px';
+                    //span.style.top = '9px';
                     span.style.right = '14px';
                     span.style.cursor = 'pointer';
                     span.style.padding = '2px 15px 2px 15px';
@@ -197,7 +197,7 @@ $(function() {
 
                     // When the Copy button is clicked call the copyToClipboard function and pass it the contents of the <pre>
                     span.onclick = function (e) {
-                        copyToClipboard(span.innerText.replace(label, '').trim(), span.parentNode)
+                        copyToClipboard(span.innerText.replace(label, '').trim(), elmCod[j])
                     }
                 }
             }
