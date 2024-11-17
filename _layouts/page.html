@@ -3,13 +3,13 @@ layout: default
 ---
 
 <div class="post-header">
-   <h1 class="post-title-main">{{ page.title }}</h1>
+    <h1 class="post-title-main">{{ page.title }}</h1>
 </div>
 
 {% if page.simple_map == true %}
 
 <script>
-    $(document).ready ( function(){
+    $(document).ready(function () {
         $('.box{{page.box_number}}').addClass('active');
     });
 </script>
@@ -19,7 +19,7 @@ layout: default
 {% elsif page.complex_map == true %}
 
 <script>
-    $(document).ready ( function(){
+    $(document).ready(function () {
         $('.modalButton{{page.box_number}}').addClass('active');
     });
 </script>
@@ -30,9 +30,9 @@ layout: default
 
 <div class="post-content">
 
-   {% if page.summary %}
+    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
-   {% endif %}
+    {% endif %}
 
     {% unless page.toc == false %}
     {% include toc.html %}
@@ -45,7 +45,7 @@ layout: default
 
     {% endif %}
 
-   {{content}}
+    {{content}}
 
     <div class="tags">
         {% if page.tags != null %}
@@ -53,13 +53,14 @@ layout: default
         {% assign projectTags = site.data.tags.allowed-tags %}
         {% for tag in page.tags %}
         {% if projectTags contains tag %}
-        <a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+        <a href="{{ " tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm"
+            role="button">{{page.tagName}}{{tag}}</a>
         {% endif %}
         {% endfor %}
         {% endif %}
     </div>
 
-{% include commento.html %}
+    {% include commento.html %}
 
 </div>
 
@@ -69,7 +70,7 @@ layout: default
 
 {% comment %} Copyright 2021 Google LLC {% endcomment %}
 
-<script>        
+<script>
     // Feel free to change the label to say what you want
     label = 'Copy';
     alert(label);
@@ -83,8 +84,7 @@ layout: default
     // @param text string The text to copy
     // @param span object The span tag that's the copy link
     //
-    function copyToClipboard(text, span)
-    {
+    function copyToClipboard(text, span) {
         // Get rid of the label if it's present
         if (text.endsWith(label)) {
             text = text.substr(0, text.length - label.length).trim();
@@ -94,13 +94,11 @@ layout: default
         // copy text to the clipboard
         if (navigator.clipboard && navigator.clipboard.writeText) {
 
-            navigator.clipboard.writeText(text).then(function ()
-            {
+            navigator.clipboard.writeText(text).then(function () {
                 // Change the Copy button to show a Copied label for a few seconds
                 showNotification(span);
 
-            }, function ()
-            {
+            }, function () {
                 alert('[ERROR] Copying to the clipboard failed!');
             });
         }
@@ -118,41 +116,38 @@ layout: default
     //
     // @param object span The <span> tag object
     //
-    function showNotification (span)
-    {
+    function showNotification(span) {
         // Add the notification to the page by creating a new <span> tag and positioning it over the Copy link
         var el = document.createElement('span');
-            el.innerText             = 'Copied';
-            el.style.transition      = 'opacity .25s linear'; // Use a transition to facilitate a fade effect
-            el.style.opacity         = 0;                     // Initially the opacity is zero
-            el.style.position        = 'absolute';            // Position the Copied text over the Copy text
-            el.style.top             = '2px';                 // Position the Copied text over the Copy text
-            el.style.left            = 0;                     // Position the Copied text over the Copy text
-            el.style.backgroundColor = 'white';
-            el.style.display         = 'inline-block';
-            el.style.textAlign       = 'center';
-            el.style.border          = 'none';
-            el.style.lineHeight      = '10px';
-            el.style.paddingTop      = '3px';
-            el.style.paddingLeft     = 0;
+        el.innerText = 'Copied';
+        el.style.transition = 'opacity .25s linear'; // Use a transition to facilitate a fade effect
+        el.style.opacity = 0;                     // Initially the opacity is zero
+        el.style.position = 'absolute';            // Position the Copied text over the Copy text
+        el.style.top = '2px';                 // Position the Copied text over the Copy text
+        el.style.left = 0;                     // Position the Copied text over the Copy text
+        el.style.backgroundColor = 'white';
+        el.style.display = 'inline-block';
+        el.style.textAlign = 'center';
+        el.style.border = 'none';
+        el.style.lineHeight = '10px';
+        el.style.paddingTop = '3px';
+        el.style.paddingLeft = 0;
         span.appendChild(el);
-    
+
         // Set the new <span> tag to cover the Copy text
-        el.style.width   = el.parentElement.offsetWidth - 2 + 'px';
-        el.style.height  = el.parentElement.offsetHeight - 4 + 'px';
-        el.style.width   = el.parentElement.offsetWidth;
-    
+        el.style.width = el.parentElement.offsetWidth - 2 + 'px';
+        el.style.height = el.parentElement.offsetHeight - 4 + 'px';
+        el.style.width = el.parentElement.offsetWidth;
+
         // Set the opacity to 1 - and because of the transition this will fade in over a quarter of a second
         el.style.opacity = 1;
-        
+
         // Set the Opacity of the Copied text back to zero after two seconds
-        setTimeout(function ()
-        {
+        setTimeout(function () {
             el.style.opacity = 0;
-            
+
             // Remove the Copied text from the DOM after 0.6 seconds
-            setTimeout(function ()
-            {
+            setTimeout(function () {
                 el.parentNode.removeChild(el);
             }, 600)
         }, 2000);
@@ -168,56 +163,57 @@ layout: default
     //
     // Now add a small Copy <span> to the top right of each code sample <pre> tag
     //
-    document.addEventListener('DOMContentLoaded', function ()
-    {
+    document.addEventListener('DOMContentLoaded', function () {
         // Get all of the <pre> tags on the page
-        var els   = document.getElementsByTagName('pre').getElementsByTagName('code');
-    alert(els);
+        var elmPre = document.getElementsByTagName('pre');
+
         // Loop through all of the <pre> tags
-        for (var i=0; i<els.length; ++i) {
+        for (var i = 0; i < elmPre.length; ++i) {
             alert(i);
+            var elmCod = elmPre.getElementsByTagName('pre');
             // Ensure that the <pre> tag has a class="code" attribute and if the data-copy="false" attribute is not present
             // then continue. If the data-copy="false" attribute is present however then skip this particular <pre> tag.
-            if (   els[i].getAttribute('data-copy') !== 'false') {
-    
-                // Create a <div> and wrap the <pre> with
-                // it
-                var div = document.createElement('div');
-    
-                // Wrap the <pre> element with the <div>.
-                // The wrapElement function is defined
-                // further down.
-                wrapElement(els[i], div);
-    
-                div.className = 'codeblock';
-                div.style.backgroundColor = '#eee';
-                div.style.backgroundImage = 'linear-gradient(-45deg, rgba(255, 255, 255, 0.5), transparent)';
-    
-                // Create the <span> tag that's the Copy
-                // link. The style positions the button at
-                // the top right of the <pre> tag, gives it
-                // a background, a border and some padding.
-                var span = document.createElement('span');
-                    span.innerText              = label;
-                    span.style.backgroundColor  = 'white'
-                    span.style.border           = '1px dashed black';
-                    span.style.color            = 'black';
-                    span.style.display          = 'inline-block';
-                    span.style.position         = 'absolute';
-                    span.style.top              = '9px';
-                    span.style.right            = '10px';
-                    span.style.cursor           = 'pointer';
-                    span.style.padding          = '2px 15px 2px 15px';
-                    span.style.fontWeight       = 'bold';
-                    span.style.fontSize         = '10pt';
-                    span.style.lineHeight       = '15px';
-                    span.style.overflow         = 'hidden';
-                div.appendChild(span);
-    
-                // When the Copy button is clicked call the copyToClipboard function and pass it the contents of the <pre>
-                span.onclick = function (e)
-                {
-                    copyToClipboard(this.parentNode.innerText.replace(label, '').trim(), this)
+            for (var i = 0; i < elmCod.length; ++j) {
+                if (elmCod[j].getAttribute('data-copy') !== 'false') {
+
+                    // Create a <div> and wrap the <pre> with
+                    // it
+                    var div = document.createElement('div');
+
+                    // Wrap the <pre> element with the <div>.
+                    // The wrapElement function is defined
+                    // further down.
+                    wrapElement(elmCod[j], div);
+
+                    div.className = 'codeblock';
+                    div.style.backgroundColor = '#eee';
+                    div.style.backgroundImage = 'linear-gradient(-45deg, rgba(255, 255, 255, 0.5), transparent)';
+
+                    // Create the <span> tag that's the Copy
+                    // link. The style positions the button at
+                    // the top right of the <pre> tag, gives it
+                    // a background, a border and some padding.
+                    var span = document.createElement('span');
+                    span.innerText = label;
+                    span.style.backgroundColor = 'white'
+                    span.style.border = '1px dashed black';
+                    span.style.color = 'black';
+                    span.style.display = 'inline-block';
+                    span.style.position = 'absolute';
+                    span.style.top = '9px';
+                    span.style.right = '10px';
+                    span.style.cursor = 'pointer';
+                    span.style.padding = '2px 15px 2px 15px';
+                    span.style.fontWeight = 'bold';
+                    span.style.fontSize = '10pt';
+                    span.style.lineHeight = '15px';
+                    span.style.overflow = 'hidden';
+                    div.appendChild(span);
+
+                    // When the Copy button is clicked call the copyToClipboard function and pass it the contents of the <pre>
+                    span.onclick = function (e) {
+                        copyToClipboard(this.parentNode.innerText.replace(label, '').trim(), this)
+                    }
                 }
             }
         }
@@ -236,8 +232,7 @@ layout: default
     // @param el      object The element to wrap
     // @param wrapper object The element that becomes the wrapper
     //
-    function wrapElement(el, wrapper)
-    {
+    function wrapElement(el, wrapper) {
         el.replaceWith(wrapper);
         wrapper.appendChild(el);
     }
