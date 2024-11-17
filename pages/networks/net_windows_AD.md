@@ -98,7 +98,7 @@ or
 
 If sysmon is running, find the configuration:
 <pre class="powershell-screenshot">
-<code>findstr /si '<ProcessCreate onmatch="exclude">' C:\tools\*</code>
+<code>findstr /si '\<ProcessCreate onmatch="exclude"\>' C:\tools\*</code>
 </pre>
 
 Scripts to check for commonly used Antivirus, EDR, logging monitor products
