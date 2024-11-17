@@ -186,8 +186,8 @@ layout: default
                     wrapElement(elmCod[j], div);
 
                     div.className = 'codeblock' + i + j;
-                    div.style.backgroundColor = '#eee';
-                    div.style.backgroundImage = 'linear-gradient(-45deg, rgba(255, 255, 255, 0.5), transparent)';
+                    //div.style.backgroundColor = '#eee';
+                    //div.style.backgroundImage = 'linear-gradient(-45deg, rgba(255, 255, 255, 0.5), transparent)';
 
                     // Create the <span> tag that's the Copy
                     // link. The style positions the button at
@@ -208,7 +208,8 @@ layout: default
                     // span.style.fontSize = '10pt';
                     // span.style.lineHeight = '15px';
                     // span.style.overflow = 'hidden';
-                    elmPre[i].appendChild(span);
+                    //elmPre[i].appendChild(span);
+                    elmPre[i].insertBefore(span,elmPre[i].firstChild);
 
                     // When the Copy button is clicked call the copyToClipboard function and pass it the contents of the <pre>
                     span.onclick = function (e) {
