@@ -197,7 +197,7 @@ $(function() {
 
                     // When the Copy button is clicked call the copyToClipboard function and pass it the contents of the <pre>
                     span.onclick = function (e) {
-                        copyToClipboard(elmCod[j].innerText.replace(label, '').trim(), span)
+                        copyToClipboard(span.parentElement.innerText.replace(label, '').trim(), span)
                     }
                 }
             }
