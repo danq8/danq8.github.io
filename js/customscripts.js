@@ -197,7 +197,7 @@ $(function() {
 
                     // When the Copy button is clicked call the copyToClipboard function and pass it the contents of the <pre>
                     span.onclick = function (e) {
-                        copyToClipboard(span.innerText.replace(label, '').trim(), elmCod[j])
+                        copyToClipboard(span.innerText.replace(label, '').trim(), span)
                     }
                 }
             }
