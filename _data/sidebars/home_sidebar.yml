@@ -263,7 +263,7 @@ entries:
           #output: web, pdf
           output: web
 
-        - title: fcrack
+        - title: fcrackzip
           url: /tools_fcrackzip.html
           #output: web, pdf
           output: web
