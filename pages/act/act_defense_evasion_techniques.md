@@ -10,6 +10,13 @@ folder: act
 
 ## An attacker may specifically use for evading detection or avoiding other defenses.
 
+
+Here's some scripts to try (on friendly CTF servers!)
+Windows "Peas"
+[https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS){:target="_blank" rel="noreferrer noopener"}
+Linux "Peas"
+[https://grimbins.github.io/grimbins/linpeas/](https://grimbins.github.io/grimbins/linpeas/){:target="_blank" rel="noreferrer noopener"}
+
 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -91,9 +98,12 @@ Check which event logs are on the machine
 <code>Get-EventLog -List</code>
 </pre>
 
-See here for more details: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-eventlog?view=powershell-5.1
+See here for more details: 
+[https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-eventlog?view=powershell-5.1](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-eventlog?view=powershell-5.1)
+
 Note: use Get-WinEvent cmdlet instead.
-https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnostics/get-winevent?view=powershell-5.1
+
+[https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnostics/get-winevent?view=powershell-5.1](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnostics/get-winevent?view=powershell-5.1)
 
 Is sysmon running?
 <pre class='powershell-screenshot'>
@@ -110,13 +120,44 @@ If sysmon is running, find the configuration:
 </pre>
 
 Scripts to check for commonly used Antivirus, EDR, logging monitor products
-https://github.com/PwnDexter/Invoke-EDRChecker
-https://github.com/PwnDexter/SharpEDRChecker
 
-Take a look at installed programs
+[https://github.com/PwnDexter/Invoke-EDRChecker](https://github.com/PwnDexter/Invoke-EDRChecker)
+
+[https://github.com/PwnDexter/SharpEDRChecker](https://github.com/PwnDexter/SharpEDRChecker)
+
+Take a look at all installed programs
 <pre class='powershell-screenshot'>
 <code>wmic product get name,version</code>
 </pre>
+
+Have a quick look-see if the user is hiding anything juicy?
+<pre class='powershell-screenshot'>
+<code>Get-ChildItem -Hidden -Path C:\Users\username\Desktop\</code>
+</pre>
+
+Anything else interesting running in services?
+<pre class='powershell-screenshot'>
+<code>net start</code>
+</pre>
+
+Get the service details
+<pre class='powershell-screenshot'>
+<code>wmic service where &quot;name like 'process_name'&quot; get Name,PathName</code>
+</pre>
+
+Get the processID for that process
+<pre class='powershell-screenshot'>
+<code>Get-Process -Name process_name</code>
+</pre>
+
+Use the processID to see who\'s watching
+<pre class='powershell-screenshot'>
+<code>netstat -noa |findstr "LISTENING" |findstr &quot;processID&quot;</code>
+</pre>
+
+
+
+
 " | markdownify }}
                             </div>
                         </div>

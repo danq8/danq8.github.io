@@ -135,7 +135,14 @@ entries:
           url: /act_reporting_blue.html
           output: web
 
+      subfolders:
+      - title: CTF
+        output: web
+        subfolderitems:
 
+        - title: scipts and more
+          url: /act_CTF1.html
+          output: web
 
   - title: Tools
     #output: web, pdf
