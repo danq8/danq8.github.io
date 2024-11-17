@@ -172,10 +172,10 @@ layout: default
     {
         // Get all of the <pre> tags on the page
         var els   = document.getElementsByTagName('pre').getElementsByTagName('code');
-    
+    alert(els);
         // Loop through all of the <pre> tags
         for (var i=0; i<els.length; ++i) {
-    
+            alert(i);
             // Ensure that the <pre> tag has a class="code" attribute and if the data-copy="false" attribute is not present
             // then continue. If the data-copy="false" attribute is present however then skip this particular <pre> tag.
             if (   els[i].getAttribute('data-copy') !== 'false') {
