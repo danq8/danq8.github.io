@@ -16,7 +16,7 @@ folder: act
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Click here for TIBER-EU</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Click here Windows AD network specifics</a>
                             </h4>
                         </div>
                         <div id="collapseFive" class="panel-collapse collapse noCrossRef">
@@ -99,7 +99,7 @@ https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnos
 
 Is sysmon running?
 <pre class="powershell-screenshot">
-<code>Get-Process | Where-Object { $_.ProcessName -eq "Sysmon" }</code>
+<code>Get-Process | Where-Object \{ $_.ProcessName -eq "Sysmon" \}</code>
 or
 <code>Get-CimInstance win32_service -Filter "Description = 'System Monitor service'"</code>
 or
