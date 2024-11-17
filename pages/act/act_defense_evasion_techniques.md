@@ -36,13 +36,13 @@ Common Name (CN)
 
 List users with common name Users:
 <pre class='powershell-screenshot'>
-<code>Get-ADUser -Filter * -SearchBase 'CN=Users,DC=THMREDTEAM,DC=COM'</code>
+<code>Get-ADUser -Filter * -SearchBase &quot;CN=Users,DC=THMREDTEAM,DC=COM&quot;</code>
 </pre>
 List users for the organisatoinal unit name:
 <pre class='powershell-screenshot'>
-<code>Get-ADUser -Filter * -SearchBase 'OU=THM,DC=THMREDTEAM,DC=COM'</code>
+<code>Get-ADUser -Filter * -SearchBase &quot;OU=THM,DC=THMREDTEAM,DC=COM&quot;</code>
 </pre>
-Is there any AV installed? (Doesn't work on domain controllers, just workstations)
+Is there any AV installed? (Doesn\'t work on domain controllers, just workstations)
 <pre class='powershell-screenshot'>
 <code>Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct</code>
 </pre>
@@ -97,16 +97,16 @@ https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnos
 
 Is sysmon running?
 <pre class='powershell-screenshot'>
-<code>Get-Process | Where-Object &#123; $_.ProcessName -eq 'Sysmon' &#125;</code>
+<code>Get-Process | Where-Object &#123; $_.ProcessName -eq &quot;Sysmon&quot; &#125;</code>
 or
-<code>Get-CimInstance win32_service -Filter 'Description = 'System Monitor service''</code>
+<code>Get-CimInstance win32_service -Filter &quot;Description = 'System Monitor service'&quot;</code>
 or
 <code>reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Sysmon/Operational</code>
 </pre>
 
 If sysmon is running, find the configuration:
 <pre class='powershell-screenshot'>
-<code>findstr /si '\<ProcessCreate onmatch='exclude'\>' C:\tools\*</code>
+<code>findstr /si &quot;\<ProcessCreate onmatch='exclude'\>&quot; C:\tools\*</code>
 </pre>
 
 Scripts to check for commonly used Antivirus, EDR, logging monitor products
