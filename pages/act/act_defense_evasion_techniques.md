@@ -99,7 +99,7 @@ https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnos
 
 Is sysmon running?
 <pre class="powershell-screenshot">
-<code>Get-Process | Where-Object \{ $_.ProcessName -eq "Sysmon" \}</code>
+<code>Get-Process | Where-Object &#123; $_.ProcessName -eq "Sysmon" &#125;</code>
 or
 <code>Get-CimInstance win32_service -Filter "Description = 'System Monitor service'"</code>
 or
