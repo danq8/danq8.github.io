@@ -10,8 +10,6 @@ folder: act
 
 ## An attacker may specifically use for evading detection or avoiding other defenses.
 
-{% include taglogic.html %}
-
 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -125,5 +123,7 @@ Take a look at installed programs
                     </div>
 </div>
 <!-- /.panel-group -->
+
+{% include taglogic.html %}
 
 {% include links.html %}
