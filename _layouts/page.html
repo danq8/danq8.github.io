@@ -169,11 +169,11 @@ layout: default
 
         // Loop through all of the <pre> tags
         for (var i = 0; i < elmPre.length; ++i) {
-            alert(i);
+            
             var elmCod = elmPre[i].getElementsByTagName('code');
             // Ensure that the <pre> tag has a class="code" attribute and if the data-copy="false" attribute is not present
             // then continue. If the data-copy="false" attribute is present however then skip this particular <pre> tag.
-            for (var i = 0; i < elmCod.length; ++j) {
+            for (var j = 0; j < elmCod.length; ++j) {
                 if (elmCod[j].getAttribute('data-copy') !== 'false') {
 
                     // Create a <div> and wrap the <pre> with
