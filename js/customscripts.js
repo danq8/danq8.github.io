@@ -193,7 +193,7 @@ $(function() {
                     // span.style.lineHeight = '15px';
                     // span.style.overflow = 'hidden';
                     //elmPre[i].appendChild(span);
-                    elmCod[j].insertBefore(span,elmCod[j]);
+                    elmCod[j].appendChild(span);
 
                     // When the Copy button is clicked call the copyToClipboard function and pass it the contents of the <pre>
                     span.onclick = function (e) {
