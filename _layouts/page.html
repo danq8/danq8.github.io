@@ -68,3 +68,41 @@ layout: default
 {% include footer.html %}
 
 {% comment %} Copyright 2021 Google LLC {% endcomment %}
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Find all pre tags on the page
+        var preTags = document.querySelectorAll("pre");
+        
+        // Loop through each pre tag
+        preTags.forEach(function(pre) {
+            // Create a button element
+            var button = document.createElement("button");
+            button.innerText = "Copy";
+            
+            // Set up a click event listener on the button
+            button.addEventListener("click", function() {
+                // Get the code inside the pre tag
+                var code = pre.innerText;
+                
+                // Create a temporary textarea element to copy the code
+                var tempTextArea = document.createElement("textarea");
+                tempTextArea.value = code;
+                document.body.appendChild(tempTextArea);
+                
+                // Select and copy the text
+                tempTextArea.select();
+                document.execCommand("copy");
+                
+                // Remove the temporary textarea
+                document.body.removeChild(tempTextArea);
+                
+                // Alert the user that the code has been copied
+                alert("Code copied to clipboard!");
+            });
+            
+            // Insert the button before the pre tag
+            pre.parentNode.insertBefore(button, pre);
+        });
+    });
+    </script>
