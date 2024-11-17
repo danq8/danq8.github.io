@@ -156,7 +156,7 @@ Get the processID for that process
 
 Use the processID to see who\'s watching
 <pre class='powershell-screenshot'>
-<code>netstat -noa |findstr "LISTENING" |findstr &quot;processID&quot;</code>
+<code>netstat -noa |findstr &quot;LISTENING&quot; |findstr &quot;processID&quot;</code>
 </pre>
 
 
