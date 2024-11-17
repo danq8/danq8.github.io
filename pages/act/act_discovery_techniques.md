@@ -23,14 +23,17 @@ We're looking for:
 *  SNMP and DNS details
 *  Hunting for credentials (saved on web browsers or client applications)
 
+
+
+
 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Click here for Linux specifics</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Click here for Linux specifics</a>
                             </h4>
                         </div>
-                        <div id="collapseFive" class="panel-collapse collapse noCrossRef">
+                        <div id="collapseOne" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
 {{"
 
@@ -139,6 +142,7 @@ What\'s cooking?
 </pre>
 
 
+
 " | markdownify }}
                             </div>
                         </div>
@@ -151,12 +155,81 @@ What\'s cooking?
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Click here for Windows specifics</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Click here for Windows specifics</a>
                             </h4>
                         </div>
-                        <div id="collapseFive" class="panel-collapse collapse noCrossRef">
+                        <div id="collapseTwo" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
 {{"
+
+## System information
+
+Let\'s see what system we\'ve landed on?
+
+<pre class='bash-screenshot'>
+<code>systeminfo</code>
+</pre>
+
+What patch level are we up to?
+
+<pre class='bash-screenshot'>
+<code>wmic qfe get Caption,Description</code>
+</pre>
+
+What services are running?
+
+<pre class='bash-screenshot'>
+<code>net start</code>
+
+or just the installed programs?
+
+<code>wmic product get name,version,vendor</code>
+</pre>
+
+## User details
+
+Who are we logged on as?
+<pre class='bash-screenshot'>
+<code>whoami</code>
+</pre>
+
+And what are we allowed to do?
+<pre class='bash-screenshot'>
+<code>whoami /priv</code>
+</pre>
+
+And what groups do we belong to?
+<pre class='bash-screenshot'>
+<code>whoami /groups</code>
+</pre>
+
+Local settings
+<pre class='bash-screenshot'>
+<code>net accounts </code>
+</pre>
+
+Are we on a domain?
+<pre class='bash-screenshot'>
+<code>net accounts /domain</code>
+</pre>
+
+## Networking details
+
+
+
+<pre class='bash-screenshot'>
+<code>ipconfig /all</code>
+</pre>
+
+<pre class='bash-screenshot'>
+<code>netstat -abno >> netstat.txt</code>
+</pre>
+
+
+Any shares out there?
+<pre class='bash-screenshot'>
+<code>net share</code>
+</pre>
 
 
 
@@ -168,6 +241,20 @@ What\'s cooking?
                     </div>
 </div>
 <!-- /.panel-group -->
+
+Other helpful bits for Windows:
+
+Sysinternals Suite
+
+[https://docs.microsoft.com/en-us/sysinternals/downloads/](https://docs.microsoft.com/en-us/sysinternals/downloads/){:target="_blank" rel="noreferrer noopener"}
+
+Process Hacker
+
+[https://processhacker.sourceforge.io/](https://processhacker.sourceforge.io/){:target="_blank" rel="noreferrer noopener"}
+
+GhostPack Seatbelt (Needs compiling with Visual Studio)
+
+[https://github.com/GhostPack/Seatbelt](https://github.com/GhostPack/Seatbelt){:target="_blank" rel="noreferrer noopener"}
 
 
 {% include taglogic.html %}
