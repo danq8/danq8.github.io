@@ -179,25 +179,25 @@ $(function() {
                     // a background, a border and some padding.
                     var span = document.createElement('span');
                     span.innerText = label;
-                    // span.style.backgroundColor = 'white'
-                    // span.style.border = '1px dashed black';
-                    // span.style.color = 'black';
+                    span.style.backgroundColor = 'white'
+                    span.style.border = '1px dashed black';
+                    span.style.color = 'black';
                     span.style.display = 'inline-block';
                     span.style.position = 'absolute';
-                    // span.style.top = '9px';
-                    span.style.right = '10px';
+                    span.style.top = '9px';
+                    span.style.right = '14px';
                     span.style.cursor = 'pointer';
-                    // span.style.padding = '2px 15px 2px 15px';
-                    // span.style.fontWeight = 'bold';
-                    // span.style.fontSize = '10pt';
-                    // span.style.lineHeight = '15px';
-                    // span.style.overflow = 'hidden';
+                    span.style.padding = '2px 15px 2px 15px';
+                    span.style.fontWeight = 'bold';
+                    span.style.fontSize = '10pt';
+                    span.style.lineHeight = '15px';
+                    span.style.overflow = 'hidden';
                     //elmPre[i].appendChild(span);
                     elmCod[j].appendChild(span);
 
                     // When the Copy button is clicked call the copyToClipboard function and pass it the contents of the <pre>
                     span.onclick = function (e) {
-                        copyToClipboard(span.innerText.replace(label, '').trim(), span)
+                        copyToClipboard(span.innerText.replace(label, '').trim(), span.parentNode)
                     }
                 }
             }
