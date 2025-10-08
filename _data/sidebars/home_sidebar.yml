@@ -17,10 +17,39 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: Essential reading
-      url: /frame_overview.html
+  - title: Cyber Frameworks
+    output: web
+    folderitems:
+
+    - title: Frameworks Overview
+      url: /frameworks_overview.html
       output: web
 
+      
+      subfolders:
+      - title: Frameworks
+        output: web
+        subfolderitems:
+
+        - title: OWASP
+          url: /frameworks_owasp.html
+          output: web
+
+        - title: MITRE
+          url: /frameworks_mitre.html
+          output: web
+
+        - title: NIST
+          url: /frameworks_nist.html
+          output: web
+
+        - title: CIS
+          url: /frameworks_cis.html
+          output: web
+
+        - title: TIBER-EU
+          url: /frameworks_tiber-eu.html
+          output: web
 
 
 
