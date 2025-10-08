@@ -1,5 +1,5 @@
 ---
-title: "Welcome to my notes"
+title: "Welcome to my notes :o)"
 keywords: Dan's notes
 #tags: [getting_started]
 #tags: [home]
