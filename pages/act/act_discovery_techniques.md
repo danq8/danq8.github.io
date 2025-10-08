@@ -257,6 +257,8 @@ GhostPack Seatbelt (Needs compiling with Visual Studio)
 [https://github.com/GhostPack/Seatbelt](https://github.com/GhostPack/Seatbelt){:target="_blank" rel="noreferrer noopener"}
 
 
+## Tools that have a level of evasion built in:
+
 {% include taglogic.html %}
 
 {% include links.html %}
