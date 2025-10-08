@@ -12,9 +12,17 @@ folder: tools
 
 Sherlock - Hunt down social media accounts by username across social networks
 
-[https://owasp.org/www-project-amass/](https://owasp.org/www-project-amass/){:target="_blank" rel="noreferrer noopener"}
-
 [https://github.com/sherlock-project/sherlock](https://github.com/sherlock-project/sherlock){:target="_blank" rel="noreferrer noopener"}
+
+usage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT] [--output OUTPUT] [--tor] [--unique-tor] [--csv] [--xlsx] [--site SITE_NAME] [--proxy PROXY_URL]
+                [--dump-response] [--json JSON_FILE] [--timeout TIMEOUT] [--print-all] [--print-found] [--no-color] [--browse] [--local] [--nsfw]
+                USERNAMES [USERNAMES ...]
+
+Simple command:
+sherlock dan_the_man
+
+You can output to a csv file.
+You can direct the search through tor or a proxy (especially useful if you're using --nsfw)
 
 
 
