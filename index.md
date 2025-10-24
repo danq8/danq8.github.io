@@ -7,6 +7,7 @@ sidebar: home_sidebar
 toc: false
 permalink: index.html
 summary: Home page of Dan's notes.
+custom_css: /assets/css/main.css
 ---
 
 <div class="home-hero">

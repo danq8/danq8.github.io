@@ -71,6 +71,14 @@
     </script>
     {% endif %}
 
+  <!-- Link to main stylesheet -->
+  <link rel="stylesheet" href="{{ "/assets/css/style.scss" | relative_url }}">
+
+  <!-- Include custom CSS if specified in front matter -->
+  {% if page.custom_css %}
+    <link rel="stylesheet" href="{{ page.custom_css | relative_url }}">
+  {% endif %}
+
 </head>
 <body>
 {% include topnav.html %}
