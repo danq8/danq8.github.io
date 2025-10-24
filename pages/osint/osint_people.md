@@ -1,6 +1,6 @@
 ---
 title: OSINT People
-last_updated: July 3, 2016
+last_updated: October 24, 2025
 sidebar: home_sidebar
 permalink: osint_people.html
 summary: A list of tools, with links for gaining information about people
@@ -8,40 +8,23 @@ toc: false
 folder: osint
 ---
 
-A list of tools, with links for gaining information about people
-
-
+This page provides a list of key tools for conducting Open-Source Intelligence (OSINT) investigations focused on individuals.
 
 <br/><br/>
 
-## OSINT Framework
+## OSINT Framework (Free)
 [https://osintframework.com/](https://osintframework.com/){:target="_blank" rel="noreferrer noopener"}
+
+The OSINT Framework is an interactive web-based directory that maps out a vast collection of OSINT tools and resources. For person-focused investigations, it's an excellent starting point to discover specialized tools for finding information related to usernames, email addresses, social media profiles, and public records.
 
 <br/>
 
-
-## theHarvester
+## theHarvester (Free)
 [https://github.com/laramies/theHarvester](https://github.com/laramies/theHarvester){:target="_blank" rel="noreferrer noopener"}
 
-theHarvester is a simple to use, yet powerful tool designed to be used during the reconnaissance stage of a red
-team assessment or penetration test. It performs open source intelligence (OSINT) gathering to help determine
-a domain's external threat landscape. The tool gathers names, emails, IPs, subdomains, and URLs by using
-multiple public resources
+While often used for corporate reconnaissance, theHarvester is a powerful command-line tool for discovering email addresses, employee names, and subdomains associated with a specific organization. By targeting a company's domain, you can quickly gather a list of potential contacts.
 
-Some modules have PAID options
-
-
-<br/><br/>
-
-
-
-## social-analyzer
-[https://github.com/laramies/theHarvester](https://github.com/laramies/theHarvester){:target="_blank" rel="noreferrer noopener"}
-
-Social Analyzer - API, CLI, and Web App for analyzing & finding a person's profile across +1000 social media \ websites. It includes different analysis and detection modules, and you can choose which modules to use during the investigation process.
-
-Some modules have PAID options
-
-
-<br/><br/>
-{% include note.html content="sources include: <br/>[https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/](https://www.helpnetsecurity.com/2023/08/22/open-source-osint-tools/)" %}
+**Example Command:**
+````bash
+theharvester -d example.com -b google,bing
+``
