@@ -11,10 +11,16 @@ custom_css: /assets/css/main.css
 ---
 
 <div class="home-hero">
+
   <h1>A Cybersecurity Knowledge Base</h1>
   <p class="lead">A living collection of notes, tools, and research on OSINT, threat intelligence, and defensive security.</p>
   {% include note.html content="These are just my notes, taken from all over the internet. If you spot anything wrong, just let me know." %}
 </div>
+
+
+### About This Site
+
+<p>I'm slowly moving my notes and links over to this site as a way to structure my thoughts and solidify my understanding. It's a continuous work in progress. If you'd like to get in touch, you can find me via the "Contact Me" link in the navigation.</p>
 
 ## What's Inside?
 
@@ -22,7 +28,7 @@ custom_css: /assets/css/main.css
   <div class="feature-card">
     <h3>OSINT</h3>
     <p>Tools and techniques for gathering information on networks, people, and other digital assets from publicly available sources.</p>
-    <a href="/osint_overview.html" class="btn">Explore OSINT Tools</a>
+    <a href="/osint_networks.html" class="btn">Explore OSINT Tools</a>
   </div>
   <div class="feature-card">
     <h3>The Dark Web</h3>
@@ -42,7 +48,3 @@ custom_css: /assets/css/main.css
 </div>
 
 <hr>
-
-### About This Site
-
-<p>I'm slowly moving my notes and links over to this site as a way to structure my thoughts and solidify my understanding. It's a continuous work in progress. If you'd like to get in touch, you can find me via the "Contact Me" link in the navigation.</p>
