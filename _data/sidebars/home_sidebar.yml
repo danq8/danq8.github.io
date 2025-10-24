@@ -366,40 +366,43 @@ entries:
 
     - title: Crowdstrike
       url: /companies_Crowdstrike.html
-      #output: web, pdf
       output: web
 
     - title: Dragos
       url: /companies_Dragos.html
-      #output: web, pdf
       output: web
 
-      #https://harfanglab.io/
+    - title: Fortinet
+      url: /companies_Fortinet.html
+      output: web
+
     - title: HarfangLab
       url: /companies_HarfangLab.html
-      #output: web, pdf
       output: web
 
     - title: Microsoft
       url: /companies_Microsoft.html
-      #output: web, pdf
       output: web
 
     - title: Palo Alto Networks
       url: /companies_PaloAlto.html
-      #output: web, pdf
       output: web
 
     - title: SentinelOne
       url: /companies_SentinelOne.html
-      #output: web, pdf
+      output: web
+
+    - title: Splunk
+      url: /companies_Splunk.html
       output: web
 
     - title: Wiz
       url: /companies_Wiz.html
-      #output: web, pdf
+      output: web
+
+    - title: Zscaler
+      url: /companies_Zscaler.html
       output: web
 
 
 
-      
